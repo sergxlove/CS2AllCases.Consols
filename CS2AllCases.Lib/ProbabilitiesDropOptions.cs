@@ -16,6 +16,7 @@ namespace CS2AllCases.Lib
             ProbabilityForbidden = rarityRequest.ProbabilityForbidden;
             ProbabilityClassified = rarityRequest.ProbabilityClassified;
             ProbabilitySecret = rarityRequest.ProbabilitySecret;
+            ProbabilityRareItem = rarityRequest.ProbabilityRareItem;
 
             ProbabilityBattleHardeend = qualityRequest.ProbabilityBattleHardeend;
             ProbabilityWorn = qualityRequest.ProbabilityWorn;
@@ -33,6 +34,8 @@ namespace CS2AllCases.Lib
         public int ProbabilityClassified { get; set; }
 
         public int ProbabilitySecret { get; set; }
+
+        public int ProbabilityRareItem { get; set; }
 
         public int ProbabilityBattleHardeend { get; set; }
 
@@ -53,7 +56,7 @@ namespace CS2AllCases.Lib
             get
             {
                 return ProbabilityArmy + ProbabilityForbidden + 
-                    ProbabilityClassified + ProbabilitySecret + 1;
+                    ProbabilityClassified + ProbabilitySecret + ProbabilityRareItem;
             }
         }
 
@@ -62,7 +65,7 @@ namespace CS2AllCases.Lib
             get
             {
                 return ProbabilityBattleHardeend + ProbabilityWorn + ProbabilityAfterFieldTesting
-                    + ProbabilitySlightlyWorn + ProbabilityStraightFromTheFactory + 1;
+                    + ProbabilitySlightlyWorn + ProbabilityStraightFromTheFactory;
             }
         }
 
@@ -70,7 +73,41 @@ namespace CS2AllCases.Lib
         {
             get
             {
-                return ProbabilityStatrack + ProbabilityNoStatrack + 1;
+                return ProbabilityStatrack + ProbabilityNoStatrack;
+            }
+        }
+
+        public int ValueTwoFirstRarity
+        {
+            get
+            {
+                return ProbabilityArmy + ProbabilityForbidden;
+            }
+        }
+
+        public int ValueThreeFirstRarity
+        {
+            get
+            {
+                return ProbabilityArmy + ProbabilityForbidden + ProbabilityClassified;
+            }
+        }
+
+        public int ValueFourFirstRarity
+        {
+            get
+            {
+                return ProbabilityArmy + ProbabilityForbidden + ProbabilityClassified
+                    + ProbabilitySecret;
+            }
+        }
+
+        public int ValueFiveFirstRarity
+        {
+            get
+            {
+                return ProbabilityArmy + ProbabilityForbidden + ProbabilityClassified
+                    + ProbabilitySecret + ProbabilityRareItem;
             }
         }
     
