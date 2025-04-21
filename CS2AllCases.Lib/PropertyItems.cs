@@ -2,23 +2,23 @@
 {
     public enum RarityItems
     {
-        None = 0,
-        Crap = 1,
-        Industrial = 2, 
-        Army = 3, 
-        Forbidden = 4,
-        Classified = 5,
-        Secret = 6
+        Crap = 0,
+        Industrial = 1, 
+        Army = 2, 
+        Forbidden = 3,
+        Classified = 4,
+        Secret = 5,
+        None = 6
     }
 
     public enum QualityItems
     {
-        None = 0,
-        BattleHardened = 1,
-        Worn = 2,
-        AfterFieldTesting = 3,
-        SlightlyWorn = 4,
-        StraightFromTheFactory = 5
+        BattleHardened = 0,
+        Worn = 1,
+        AfterFieldTesting = 2,
+        SlightlyWorn = 3,
+        StraightFromTheFactory = 4,
+        None = 5
     }
 
     public enum StatrackItems
