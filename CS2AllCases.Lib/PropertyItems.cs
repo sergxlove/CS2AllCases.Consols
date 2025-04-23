@@ -1,5 +1,13 @@
 ﻿namespace PropertyItems
 {
+    public class PropertyItems
+    {
+        public static QualityItems GetQuality(int value)
+        {
+
+            return QualityItems.None;
+        }
+    }
     public enum RarityItems
     {
         Crap = 0,
