@@ -110,6 +110,40 @@ namespace CS2AllCases.Lib
                     + ProbabilitySecret + ProbabilityRareItem;
             }
         }
+
+        public int ValueTwoFirstQuality
+        {
+            get
+            {
+                return ProbabilityBattleHardeend + ProbabilityWorn;
+            }
+        }
+
+        public int ValueThreeFirstQuality
+        {
+            get
+            {
+                return ProbabilityBattleHardeend + ProbabilityWorn + ProbabilityAfterFieldTesting;
+            }
+        }
+
+        public int ValueFourFirstQuality
+        {
+            get
+            {
+                return ProbabilityBattleHardeend + ProbabilityWorn + ProbabilityAfterFieldTesting
+                    + ProbabilitySlightlyWorn;
+            }
+        }
+
+        public int ValueFiveFirstQuality
+        {
+            get
+            {
+                return ProbabilityBattleHardeend + ProbabilityWorn + ProbabilityAfterFieldTesting
+                    + ProbabilitySlightlyWorn + ProbabilityStraightFromTheFactory;
+            }
+        }
     
     }
 }

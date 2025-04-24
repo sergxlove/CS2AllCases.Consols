@@ -30,27 +30,27 @@ namespace CS2AllCases.Lib.Models
             int varSkin;
             switch (varRarity)
             {
-                case int s when (s > 0 && s <= _options.ProbabilityArmy):
+                case int s when (s >= 0 && s < _options.ProbabilityArmy):
                     varSkin = random.Next(0, QUANTITY_ARMY);
                     result.Name = GetSkinArmy(varSkin);
                     break;
-                case int s when (s > _options.ProbabilityArmy &&
-                    s <= _options.ValueTwoFirstRarity):
+                case int s when (s >= _options.ProbabilityArmy &&
+                    s < _options.ValueTwoFirstRarity):
                     varSkin = random.Next(0, QUANTITY_FORBIDDEN);
                     result.Name = GetSkinForbidden(varSkin);
                     break;
-                case int s when (s > _options.ValueTwoFirstRarity &&
-                    s <= _options.ValueThreeFirstRarity):
+                case int s when (s >= _options.ValueTwoFirstRarity &&
+                    s < _options.ValueThreeFirstRarity):
                     varSkin = random.Next(0, QUANTITY_CLASSIFIED);
                     result.Name = GetSkinClassified(varSkin);
                     break;
-                case int s when (s > _options.ValueThreeFirstRarity &&
-                    s <= _options.ValueFourFirstRarity):
+                case int s when (s >= _options.ValueThreeFirstRarity &&
+                    s < _options.ValueFourFirstRarity):
                     varSkin = random.Next(0, QUANTITY_SECRET);
                     result.Name = GetSkinSecret(varSkin);
                     break;
-                case int s when (s > _options.ValueFourFirstRarity &&
-                    s <= _options.ValueFiveFirstRarity):
+                case int s when (s >= _options.ValueFourFirstRarity &&
+                    s < _options.ValueFiveFirstRarity):
                     varSkin = random.Next(0, QUANTITY_RAREITEM);
                     result.Name = GetSkinSecret(varSkin);
                     break;
