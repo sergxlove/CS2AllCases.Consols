@@ -52,12 +52,58 @@ namespace CS2AllCases.Lib.Models
                 case int s when (s >= _options.ValueFourFirstRarity &&
                     s < _options.ValueFiveFirstRarity):
                     varSkin = random.Next(0, QUANTITY_RAREITEM);
-                    result.Name = GetSkinSecret(varSkin);
+                    result.Name = GetSkinRareItem(varSkin);
                     break;
                 default:
                     break;
             }
+            result.Statrack = PropertyItems.PropertyItems.GetStatrack(_options, varStatrack);
             return result;
+        }
+
+        public enum SnakebiteCaseSkins
+        {
+            None = 0,
+            Ump45Oscillator = 1,
+            NovaWindblown = 2, 
+            M249OSIPR = 3,
+            R8RevolverJunkYard = 4,
+            SG553HeavyMetal = 5,
+            CZ75AutoCircaetus = 6,
+            Glock18ClearPolymer = 7,
+            NegevDevTexture = 8,
+            Mac10ButtonMasher = 9,
+            P250CyberShell = 10,
+            DesertEagleTriggerDiscipline = 11,
+            AK47Slate = 12,
+            XM1014XOXO = 13,
+            GalilARChromaticAberration = 14,
+            MP9FoodChain = 15, 
+            M4A4InLivingColor = 16,
+            USPSTheTraitor = 17,
+            SportGlovesSlingShot = 18,
+            DriverGlovesSnowLeopard = 19,
+            SpecialistGlovesMarbleFade = 20,
+            DriverGlovesBlackTie = 21,
+            SportGlovesScarletShamagh = 22, 
+            SportGlovesNocts = 23,
+            HandWrapsCaution = 24,
+            SpecialistGlovesTigerStrike = 25,
+            MotoGlovesBloodPressure = 26,
+            SportGlovesBigGame = 27,
+            SpecialistGlovesLtCommander = 28,
+            MotoGlovesFinishLine = 29,
+            BrokenFangGlovesJade = 30,
+            DriverGlovesRezanTheRed = 31,
+            DriverGlovesQueenJaguar = 32,
+            HandWrapsDesertShamagh = 33,
+            BrokenFangGlovesUnhigned = 34,
+            MotoGlovesSnoukOut = 35,
+            BrokenFangGlovesYellowBanded = 36,
+            HandWrapsGiraffe = 37,
+            MotoGloves3rdCommandoCompany = 38,
+            HandWrapsConstrictor = 39,
+            BrokerFangGlovesNeeslePoint = 40
         }
 
         private string GetSkinArmy(int value)
@@ -75,9 +121,9 @@ namespace CS2AllCases.Lib.Models
             }
         }
 
-        private string GetSkinForbidden(int vaue)
+        private string GetSkinForbidden(int value)
         {
-            switch (vaue)
+            switch (value)
             {
                 case 0: return "Negev dev_texture";
                 case 1: return "MAC-10 Button Masher";
@@ -140,15 +186,5 @@ namespace CS2AllCases.Lib.Models
                 default: return "None";
             }
         }
-        
-        private QualityItems GetQuality(int value)
-        {
-            switch(value)
-            {
-
-            }
-        }
     }
-
-
 }
