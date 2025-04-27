@@ -26,6 +26,20 @@ namespace PropertyItems
                     return QualityItems.None;
             }
         }
+
+        public static StatrackItems GetStatrack(ProbabilitiesDropOptions options, int value)
+        {
+            switch (value)
+            {
+                case int s when (s >= 0 && s < options.ProbabilityStatrack):
+                    return StatrackItems.Yes;
+                case int s when (s>=options.ProbabilityStatrack && s < 
+                    options.ProbabilityStatrack + options.ProbabilityNoStatrack):
+                    return StatrackItems.No;
+                default:
+                    return StatrackItems.No;
+            }
+        }
     }
     public enum RarityItems
     {
