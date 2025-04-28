@@ -1,4 +1,5 @@
 ﻿using PropertyItems;
+using System.ComponentModel;
 using System.Diagnostics.Contracts;
 using System.Security;
 
@@ -13,7 +14,7 @@ namespace CS2AllCases.Lib.Models
         }
         private readonly ProbabilitiesDropOptions _options;
 
-        public const int QUANTITY_ARMY = 7;
+        public const int QUANTITY_ARMY = 7; 
         public const int QUANTITY_FORBIDDEN = 5;
         public const int QUANTITY_CLASSIFIED = 3;
         public const int QUANTITY_SECRET = 2;
@@ -64,46 +65,88 @@ namespace CS2AllCases.Lib.Models
         public enum SnakebiteCaseSkins
         {
             None = 0,
+            [Description("UMP-45 Oscillator")]
             Ump45Oscillator = 1,
-            NovaWindblown = 2, 
+            [Description("Nova Windblown")]
+            NovaWindblown = 2,
+            [Description("M249 O.S.I.P.R")]
             M249OSIPR = 3,
+            [Description("R8 Revolver Junk Yard")]
             R8RevolverJunkYard = 4,
+            [Description("SG 553 Heavy Metal")]
             SG553HeavyMetal = 5,
+            [Description("CZ75-Auto Circaetus")]
             CZ75AutoCircaetus = 6,
+            [Description("Glock-18 Clear Polymer")]
             Glock18ClearPolymer = 7,
+            [Description("Negev dev_texture")]
             NegevDevTexture = 8,
+            [Description("MAC-10 Button Masher")]
             Mac10ButtonMasher = 9,
+            [Description("P250 Cyber Shell")]
             P250CyberShell = 10,
+            [Description("Desert Eagle Trigger Discipline")]
             DesertEagleTriggerDiscipline = 11,
+            [Description("AK-47 Slate")]
             AK47Slate = 12,
+            [Description("XM1014 XOXO")]
             XM1014XOXO = 13,
+            [Description("Galil AR Chromatic Aberration")]
             GalilARChromaticAberration = 14,
-            MP9FoodChain = 15, 
+            [Description("MP9 Food Chain")]
+            MP9FoodChain = 15,
+            [Description("M4A4 In Living Color")]
             M4A4InLivingColor = 16,
+            [Description("USP-S The Traitor")]
             USPSTheTraitor = 17,
+            [Description("Sport Gloves SlingShot")]
             SportGlovesSlingShot = 18,
+            [Description("Driver Gloves Snow Leopard")]
             DriverGlovesSnowLeopard = 19,
+            [Description("Specialist Gloves Marble Fade")]
             SpecialistGlovesMarbleFade = 20,
+            [Description("Driver Gloves Black Tie")]
             DriverGlovesBlackTie = 21,
-            SportGlovesScarletShamagh = 22, 
-            SportGlovesNocts = 23,
-            HandWrapsCaution = 24,
-            SpecialistGlovesTigerStrike = 25,
-            MotoGlovesBloodPressure = 26,
-            SportGlovesBigGame = 27,
-            SpecialistGlovesLtCommander = 28,
-            MotoGlovesFinishLine = 29,
-            BrokenFangGlovesJade = 30,
-            DriverGlovesRezanTheRed = 31,
-            DriverGlovesQueenJaguar = 32,
-            HandWrapsDesertShamagh = 33,
-            BrokenFangGlovesUnhigned = 34,
-            MotoGlovesSnoukOut = 35,
-            BrokenFangGlovesYellowBanded = 36,
-            HandWrapsGiraffe = 37,
-            MotoGloves3rdCommandoCompany = 38,
-            HandWrapsConstrictor = 39,
-            BrokerFangGlovesNeeslePoint = 40
+            [Description("Sport Gloves Scarlet Shamagh")]
+            SportGlovesScarletShamagh = 22,
+            [Description("Specialist Gloves Field Agent")]
+            SpecialistGlovesFieldAgent = 23,
+            [Description("Sport Gloves Nocts")]
+            SportGlovesNocts = 24,
+            [Description("Hand Wraps Caution")]
+            HandWrapsCaution = 25,
+            [Description("Specialist Gloves Tiger Strike")]
+            SpecialistGlovesTigerStrike = 26,
+            [Description("Moto Gloves Blood Pressure")]
+            MotoGlovesBloodPressure = 27,
+            [Description("Sport Gloves Big Game")]
+            SportGlovesBigGame = 28,
+            [Description("Specialist Gloves Lt. Commander")]
+            SpecialistGlovesLtCommander = 29,
+            [Description("Moto Gloves Finish Line")]
+            MotoGlovesFinishLine = 30,
+            [Description("Broken Fang Gloves Jade")]
+            BrokenFangGlovesJade = 31,
+            [Description("Driver Gloves Rezan the Red")]
+            DriverGlovesRezanTheRed = 32,
+            [Description("Driver Gloves Queen Jaguar")]
+            DriverGlovesQueenJaguar = 33,
+            [Description("Hand Wraps Desert Shamagh")]
+            HandWrapsDesertShamagh = 34,
+            [Description("Broken Fang Gloves Unhigned")]
+            BrokenFangGlovesUnhigned = 35,
+            [Description("Moto Gloves Snouk Out")]
+            MotoGlovesSnoukOut = 36,
+            [Description("Broken Fang Gloves Yellow-banded")]
+            BrokenFangGlovesYellowBanded = 37,
+            [Description("Hand Wraps Giraffe")]
+            HandWrapsGiraffe = 38,
+            [Description("Moto Gloves 3rd Commando Company")]
+            MotoGloves3rdCommandoCompany = 39,
+            [Description("Hand Wraps Constrictor")]
+            HandWrapsConstrictor = 40,
+            [Description("Broken Fang Gloves Needle Point")]
+            BrokerFangGlovesNeedlePoint = 41
         }
 
         private string GetSkinArmy(int value)
