@@ -1,4 +1,5 @@
 ﻿using CS2AllCases.Lib.Abstractios;
+using CS2AllCases.Lib.Contracts;
 using PropertyItems;
 using System.ComponentModel;
 using System.Reflection;
@@ -29,50 +30,19 @@ namespace CS2AllCases.Lib.Models
 
         public ResultsItems GetDrop()
         {
-            ResultsItems result = new ResultsItems();
-            Random random = new Random();
-            int varRarity = random.Next(0, _options.MaxValueForRarity);
-            int varQuality = random.Next(0, _options.MaxValueForQuality);
-            int varStatrack = random.Next(0, _options.MaxValueForStatrack);
-            string nameSkin = string.Empty;
-            int varSkin;
-            switch (varRarity)
+            return PropertyItems.PropertyItems.GetDrop(_options, new ListSkinsRequest<Skins>()
             {
-                case int s when (s >= 0 && s < _options.ProbabilityArmy):
-                    varSkin = random.Next(0, QuantityaArmy);
-                    result.Name = GetSkinString(SkinsArmy[varSkin]);
-                    result.Rarity = RarityItems.Army;
-                    break;
-                case int s when (s >= _options.ProbabilityArmy &&
-                    s < _options.ValueTwoFirstRarity):
-                    varSkin = random.Next(0, QuantityForbidden);
-                    result.Name = GetSkinString(SkinsForbidden[varSkin]);
-                    result.Rarity = RarityItems.Forbidden;
-                    break;
-                case int s when (s >= _options.ValueTwoFirstRarity &&
-                    s < _options.ValueThreeFirstRarity):
-                    varSkin = random.Next(0, QuantityClassified);
-                    result.Name = GetSkinString(SkinsClassified[varSkin]);
-                    result.Rarity = RarityItems.Classified;
-                    break;
-                case int s when (s >= _options.ValueThreeFirstRarity &&
-                    s < _options.ValueFourFirstRarity):
-                    varSkin = random.Next(0, QuantitySecret);
-                    result.Name = GetSkinString(SkinsSecret[varSkin]);
-                    result.Rarity = RarityItems.Secret;
-                    break;
-                case int s when (s >= _options.ValueFourFirstRarity &&
-                    s < _options.ValueFiveFirstRarity):
-                    varSkin = random.Next(0, QuantityRareItem);
-                    result.Name = GetSkinString(SkinsRareItem[varSkin]);
-                    result.Rarity = RarityItems.Secret;
-                    break;
-                default:
-                    break;
-            }
-            result.Quality = PropertyItems.PropertyItems.GetQuality(_options, varQuality);
-            result.Statrack = PropertyItems.PropertyItems.GetStatrack(_options, varStatrack);
-            return result;
+                SkinsArmy = SkinsArmy,
+                SkinsForbidden = SkinsForbidden,
+                SkinsClassified = SkinsClassified,
+                SkinsSecret = SkinsSecret,
+                SkinsRareItem = SkinsRareItem,
+                QuantityaArmy = QuantityaArmy,
+                QuantityClassified = QuantityClassified,
+                QuantityForbidden = QuantityForbidden,
+                QuantitySecret = QuantitySecret,
+                QuantityRareItem = QuantityRareItem
+            });
         }
 
         public enum Skins
