@@ -1,4 +1,7 @@
 ﻿using CS2AllCases.Lib;
+using CS2AllCases.Lib.Contracts;
+using System.ComponentModel;
+using System.Reflection;
 
 namespace PropertyItems
 {
@@ -39,6 +42,62 @@ namespace PropertyItems
                 default:
                     return StatrackItems.No;
             }
+        }
+
+        public static ResultsItems GetDrop<T>(ProbabilitiesDropOptions options, 
+            ListSkinsRequest<T> skins)
+        {
+            ResultsItems result = new ResultsItems();
+            Random random = new Random();
+            int varRarity = random.Next(0, options.MaxValueForRarity);
+            int varQuality = random.Next(0, options.MaxValueForQuality);
+            int varStatrack = random.Next(0, options.MaxValueForStatrack);
+            string nameSkin = string.Empty;
+            int varSkin;
+            switch (varRarity)
+            {
+                case int s when (s >= 0 && s < options.ProbabilityArmy):
+                    varSkin = random.Next(0, skins.QuantityaArmy);
+                    result.Name = GetSkinString<T>(skins.SkinsArmy[varSkin]);
+                    result.Rarity = RarityItems.Army;
+                    break;
+                case int s when (s >= options.ProbabilityArmy &&
+                    s < options.ValueTwoFirstRarity):
+                    varSkin = random.Next(0, skins.QuantityForbidden);
+                    result.Name = GetSkinString<T>(skins.SkinsForbidden[varSkin]);
+                    result.Rarity = RarityItems.Forbidden;
+                    break;
+                case int s when (s >= options.ValueTwoFirstRarity &&
+                    s < options.ValueThreeFirstRarity):
+                    varSkin = random.Next(0, skins.QuantityClassified);
+                    result.Name = GetSkinString<T>(skins.SkinsClassified[varSkin]);
+                    result.Rarity = RarityItems.Classified;
+                    break;
+                case int s when (s >= options.ValueThreeFirstRarity &&
+                    s < options.ValueFourFirstRarity):
+                    varSkin = random.Next(0, skins.QuantitySecret);
+                    result.Name = GetSkinString<T>(skins.SkinsSecret[varSkin]);
+                    result.Rarity = RarityItems.Secret;
+                    break;
+                case int s when (s >= options.ValueFourFirstRarity &&
+                    s < options.ValueFiveFirstRarity):
+                    varSkin = random.Next(0, skins.QuantityRareItem);
+                    result.Name = GetSkinString<T>(skins.SkinsRareItem[varSkin]);
+                    result.Rarity = RarityItems.Secret;
+                    break;
+                default:
+                    break;
+            }
+            result.Quality = GetQuality(options, varQuality);
+            result.Statrack = GetStatrack(options, varStatrack);
+            return result;
+        }
+
+        public static string GetSkinString<T>(T value)
+        {
+            FieldInfo field = value!.GetType().GetField(value.ToString()!)!;
+            DescriptionAttribute attribute = field?.GetCustomAttribute<DescriptionAttribute>()!;
+            return attribute?.Description ?? value.ToString()!;
         }
     }
     public enum RarityItems
