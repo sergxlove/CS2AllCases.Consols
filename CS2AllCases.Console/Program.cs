@@ -7,11 +7,12 @@ namespace CS2AllCases.Consols
     {
         static void Main(string[] args)
         {
-            for(int i = 0; i< 100;i++)
+            ICases snakebiteCase = new GalleryCase();
+            Console.WriteLine(snakebiteCase.GetNameSkinsAll());
+            for (int i = 0; i < 100; i++)
             {
-                ICases snakebiteCase = new GalleryCase();
                 var result = snakebiteCase.GetDrop();
-                switch(result.Rarity)
+                switch (result.Rarity)
                 {
                     case PropertyItems.RarityItems.Army:
                         Console.ForegroundColor = ConsoleColor.Blue;

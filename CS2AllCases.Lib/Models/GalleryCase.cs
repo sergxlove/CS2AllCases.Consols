@@ -118,43 +118,15 @@ namespace CS2AllCases.Lib.Models
         public string GetNameSkinsAll(bool IsSkinArmy = false, bool isSkinForbidden = false,
             bool isSkinClassified = false, bool isSkinSecret = false, bool isSkinRareItem = false)
         {
-            StringBuilder result = new StringBuilder();
-            if (IsSkinArmy)
+            return PropertyItems.PropertyItems.GetAllNamesSkin(new OnlyListSkinsRequest<Skins>
             {
-                foreach (var item in SkinsArmy)
-                {
-                    result.Append($"{GetSkinString(item)} \n");
-                }
-            }
-            if (isSkinForbidden)
-            {
-                foreach (var item in SkinsForbidden)
-                {
-                    result.Append($"{GetSkinString(item)} \n");
-                }
-            }
-            if (isSkinClassified)
-            {
-                foreach (var item in SkinsClassified)
-                {
-                    result.Append($"{GetSkinString(item)} \n");
-                }
-            }
-            if (isSkinSecret)
-            {
-                foreach (var item in SkinsSecret)
-                {
-                    result.Append($"{GetSkinString(item)} \n");
-                }
-            }
-            if (isSkinRareItem)
-            {
-                foreach (var item in SkinsRareItem)
-                {
-                    result.Append($"{GetSkinString(item)} \n");
-                }
-            }
-            return result.ToString();
+                SkinsArmy = SkinsArmy,
+                SkinsForbidden = SkinsForbidden,
+                SkinsClassified = SkinsClassified,
+                SkinsSecret = SkinsSecret,
+                SkinsRareItem = SkinsRareItem
+            },
+            IsSkinArmy, isSkinForbidden, isSkinClassified, isSkinSecret, isSkinRareItem);
         }
 
         public string GetNameSkinsAll()
