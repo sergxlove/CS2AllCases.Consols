@@ -1,4 +1,4 @@
-﻿using PropertyItems;
+﻿using PropertyItem;
 
 namespace CS2AllCases.Lib
 {
