@@ -2,6 +2,7 @@
 using CS2AllCases.Lib.Contracts;
 using System.ComponentModel;
 using System.Reflection;
+using System.Text;
 
 namespace PropertyItems
 {
@@ -98,6 +99,48 @@ namespace PropertyItems
             FieldInfo field = value!.GetType().GetField(value.ToString()!)!;
             DescriptionAttribute attribute = field?.GetCustomAttribute<DescriptionAttribute>()!;
             return attribute?.Description ?? value.ToString()!;
+        }
+
+        public static string GetAllNamesSkin<T>(OnlyListSkinsRequest<T> skins, bool IsSkinArmy,
+            bool isSkinForbidden, bool isSkinClassified, bool isSkinSecret, bool isSkinRareItem)
+        {
+            StringBuilder result = new StringBuilder();
+            if (IsSkinArmy)
+            {
+                foreach (var item in skins.SkinsArmy)
+                {
+                    result.Append($"{GetSkinString(item)} \n");
+                }
+            }
+            if (isSkinForbidden)
+            {
+                foreach (var item in skins.SkinsForbidden)
+                {
+                    result.Append($"{GetSkinString(item)} \n");
+                }
+            }
+            if (isSkinClassified)
+            {
+                foreach (var item in skins.SkinsClassified)
+                {
+                    result.Append($"{GetSkinString(item)} \n");
+                }
+            }
+            if (isSkinSecret)
+            {
+                foreach (var item in skins.SkinsSecret)
+                {
+                    result.Append($"{GetSkinString(item)} \n");
+                }
+            }
+            if (isSkinRareItem)
+            {
+                foreach (var item in skins.SkinsRareItem)
+                {
+                    result.Append($"{GetSkinString(item)} \n");
+                }
+            }
+            return result.ToString();
         }
     }
     public enum RarityItems
