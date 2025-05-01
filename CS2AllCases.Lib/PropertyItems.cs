@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.Reflection;
 using System.Text;
 
-namespace PropertyItems
+namespace PropertyItem
 {
     public class PropertyItems
     {

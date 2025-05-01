@@ -1,8 +1,7 @@
 ﻿using CS2AllCases.Lib.Abstractios;
 using CS2AllCases.Lib.Contracts;
+using PropertyItem;
 using System.ComponentModel;
-using System.Reflection;
-using System.Text;
 
 namespace CS2AllCases.Lib.Models
 {
@@ -29,7 +28,7 @@ namespace CS2AllCases.Lib.Models
 
         public ResultsItems GetDrop()
         {
-            return PropertyItems.PropertyItems.GetDrop(_options, new ListSkinsRequest<Skins>()
+            return PropertyItems.GetDrop(_options, new ListSkinsRequest<Skins>()
             {
                 SkinsArmy = SkinsArmy,
                 SkinsForbidden = SkinsForbidden,
@@ -42,6 +41,25 @@ namespace CS2AllCases.Lib.Models
                 QuantitySecret = QuantitySecret,
                 QuantityRareItem = QuantityRareItem
             });
+        }
+
+        public string GetNameSkinsAll(bool IsSkinArmy = false, bool isSkinForbidden = false,
+            bool isSkinClassified = false, bool isSkinSecret = false, bool isSkinRareItem = false)
+        {
+            return PropertyItems.GetAllNamesSkin(new OnlyListSkinsRequest<Skins>
+            {
+                SkinsArmy = SkinsArmy,
+                SkinsForbidden = SkinsForbidden,
+                SkinsClassified = SkinsClassified,
+                SkinsSecret = SkinsSecret,
+                SkinsRareItem = SkinsRareItem
+            },
+            IsSkinArmy, isSkinForbidden, isSkinClassified, isSkinSecret, isSkinRareItem);
+        }
+
+        public string GetNameSkinsAll()
+        {
+            return GetNameSkinsAll(true, true, true, true, true);
         }
 
         public enum Skins
@@ -106,32 +124,6 @@ namespace CS2AllCases.Lib.Models
             KukriKnifeBorealForest = 28,
             [Description("Kukri Knife Safari Mesh")]
             KukriKnifeSafariMesh = 29
-        }
-
-        public static string GetSkinString(Skins value)
-        {
-            FieldInfo field = value.GetType().GetField(value.ToString())!;
-            DescriptionAttribute attribute = field?.GetCustomAttribute<DescriptionAttribute>()!;
-            return attribute?.Description ?? value.ToString();
-        }
-
-        public string GetNameSkinsAll(bool IsSkinArmy = false, bool isSkinForbidden = false,
-            bool isSkinClassified = false, bool isSkinSecret = false, bool isSkinRareItem = false)
-        {
-            return PropertyItems.PropertyItems.GetAllNamesSkin(new OnlyListSkinsRequest<Skins>
-            {
-                SkinsArmy = SkinsArmy,
-                SkinsForbidden = SkinsForbidden,
-                SkinsClassified = SkinsClassified,
-                SkinsSecret = SkinsSecret,
-                SkinsRareItem = SkinsRareItem
-            },
-            IsSkinArmy, isSkinForbidden, isSkinClassified, isSkinSecret, isSkinRareItem);
-        }
-
-        public string GetNameSkinsAll()
-        {
-            return GetNameSkinsAll(true, true, true, true, true);
         }
 
         private List<Skins> SkinsArmy = 

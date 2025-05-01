@@ -14,16 +14,16 @@ namespace CS2AllCases.Consols
                 var result = snakebiteCase.GetDrop();
                 switch (result.Rarity)
                 {
-                    case PropertyItems.RarityItems.Army:
+                    case PropertyItem.RarityItems.Army:
                         Console.ForegroundColor = ConsoleColor.Blue;
                         break;
-                    case PropertyItems.RarityItems.Forbidden:
+                    case PropertyItem.RarityItems.Forbidden:
                         Console.ForegroundColor = ConsoleColor.DarkMagenta;
                         break;
-                    case PropertyItems.RarityItems.Classified:
+                    case PropertyItem.RarityItems.Classified:
                         Console.ForegroundColor = ConsoleColor.Magenta;
                         break;
-                    case PropertyItems.RarityItems.Secret:
+                    case PropertyItem.RarityItems.Secret:
                         Console.ForegroundColor = ConsoleColor.Red;
                         break;
                 }
