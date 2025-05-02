@@ -66,87 +66,87 @@ namespace CS2AllCases.Lib.Models
         {
             [Description("None")]
             None = 0,
-            [Description("UMP-45 Oscillator")]
+            [Description("UMP-45 | Oscillator")]
             Ump45Oscillator = 1,
-            [Description("Nova Windblown")]
+            [Description("Nova | Windblown")]
             NovaWindblown = 2,
-            [Description("M249 O.S.I.P.R")]
+            [Description("M249 | O.S.I.P.R")]
             M249OSIPR = 3,
-            [Description("R8 Revolver Junk Yard")]
+            [Description("R8 Revolver | Junk Yard")]
             R8RevolverJunkYard = 4,
-            [Description("SG 553 Heavy Metal")]
+            [Description("SG 553 | Heavy Metal")]
             SG553HeavyMetal = 5,
-            [Description("CZ75-Auto Circaetus")]
+            [Description("CZ75-Auto | Circaetus")]
             CZ75AutoCircaetus = 6,
-            [Description("Glock-18 Clear Polymer")]
+            [Description("Glock-18 | Clear Polymer")]
             Glock18ClearPolymer = 7,
-            [Description("Negev dev_texture")]
+            [Description("Negev | dev_texture")]
             NegevDevTexture = 8,
-            [Description("MAC-10 Button Masher")]
+            [Description("MAC-10 | Button Masher")]
             Mac10ButtonMasher = 9,
-            [Description("P250 Cyber Shell")]
+            [Description("P250 | Cyber Shell")]
             P250CyberShell = 10,
-            [Description("Desert Eagle Trigger Discipline")]
+            [Description("Desert Eagle | Trigger Discipline")]
             DesertEagleTriggerDiscipline = 11,
-            [Description("AK-47 Slate")]
+            [Description("AK-47 | Slate")]
             AK47Slate = 12,
-            [Description("XM1014 XOXO")]
+            [Description("XM1014 | XOXO")]
             XM1014XOXO = 13,
-            [Description("Galil AR Chromatic Aberration")]
+            [Description("Galil AR | Chromatic Aberration")]
             GalilARChromaticAberration = 14,
-            [Description("MP9 Food Chain")]
+            [Description("MP9 | Food Chain")]
             MP9FoodChain = 15,
-            [Description("M4A4 In Living Color")]
+            [Description("M4A4 | In Living Color")]
             M4A4InLivingColor = 16,
-            [Description("USP-S The Traitor")]
+            [Description("USP-S | The Traitor")]
             USPSTheTraitor = 17,
-            [Description("Sport Gloves SlingShot")]
+            [Description("Sport Gloves | SlingShot")]
             SportGlovesSlingShot = 18,
-            [Description("Driver Gloves Snow Leopard")]
+            [Description("Driver Gloves | Snow Leopard")]
             DriverGlovesSnowLeopard = 19,
-            [Description("Specialist Gloves Marble Fade")]
+            [Description("Specialist Gloves | Marble Fade")]
             SpecialistGlovesMarbleFade = 20,
-            [Description("Driver Gloves Black Tie")]
+            [Description("Driver Gloves | Black Tie")]
             DriverGlovesBlackTie = 21,
-            [Description("Sport Gloves Scarlet Shamagh")]
+            [Description("Sport Gloves | Scarlet Shamagh")]
             SportGlovesScarletShamagh = 22,
-            [Description("Specialist Gloves Field Agent")]
+            [Description("Specialist Gloves | Field Agent")]
             SpecialistGlovesFieldAgent = 23,
-            [Description("Sport Gloves Nocts")]
+            [Description("Sport Gloves | Nocts")]
             SportGlovesNocts = 24,
-            [Description("Hand Wraps Caution")]
+            [Description("Hand Wraps | Caution")]
             HandWrapsCaution = 25,
-            [Description("Specialist Gloves Tiger Strike")]
+            [Description("Specialist Gloves | Tiger Strike")]
             SpecialistGlovesTigerStrike = 26,
-            [Description("Moto Gloves Blood Pressure")]
+            [Description("Moto Gloves | Blood Pressure")]
             MotoGlovesBloodPressure = 27,
-            [Description("Sport Gloves Big Game")]
+            [Description("Sport Gloves | Big Game")]
             SportGlovesBigGame = 28,
-            [Description("Specialist Gloves Lt. Commander")]
+            [Description("Specialist Gloves | Lt. Commander")]
             SpecialistGlovesLtCommander = 29,
-            [Description("Moto Gloves Finish Line")]
+            [Description("Moto Gloves | Finish Line")]
             MotoGlovesFinishLine = 30,
-            [Description("Broken Fang Gloves Jade")]
+            [Description("Broken Fang Gloves | Jade")]
             BrokenFangGlovesJade = 31,
-            [Description("Driver Gloves Rezan the Red")]
+            [Description("Driver Gloves | Rezan the Red")]
             DriverGlovesRezanTheRed = 32,
-            [Description("Driver Gloves Queen Jaguar")]
+            [Description("Driver Gloves | Queen Jaguar")]
             DriverGlovesQueenJaguar = 33,
-            [Description("Hand Wraps Desert Shamagh")]
+            [Description("Hand Wraps | Desert Shamagh")]
             HandWrapsDesertShamagh = 34,
-            [Description("Broken Fang Gloves Unhigned")]
+            [Description("Broken Fang Gloves | Unhigned")]
             BrokenFangGlovesUnhigned = 35,
-            [Description("Moto Gloves Snouk Out")]
+            [Description("Moto Gloves | Snouk Out")]
             MotoGlovesSnoukOut = 36,
-            [Description("Broken Fang Gloves Yellow-banded")]
+            [Description("Broken Fang Gloves | Yellow-banded")]
             BrokenFangGlovesYellowBanded = 37,
-            [Description("Hand Wraps Giraffe")]
+            [Description("Hand Wraps | Giraffe")]
             HandWrapsGiraffe = 38,
-            [Description("Moto Gloves 3rd Commando Company")]
+            [Description("Moto Gloves | 3rd Commando Company")]
             MotoGloves3rdCommandoCompany = 39,
-            [Description("Hand Wraps Constrictor")]
+            [Description("Hand Wraps | Constrictor")]
             HandWrapsConstrictor = 40,
-            [Description("Broken Fang Gloves Needle Point")]
+            [Description("Broken Fang Gloves | Needle Point")]
             BrokerFangGlovesNeedlePoint = 41
         }
 
