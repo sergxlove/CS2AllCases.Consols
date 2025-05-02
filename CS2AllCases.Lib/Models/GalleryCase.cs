@@ -66,63 +66,63 @@ namespace CS2AllCases.Lib.Models
         {
             [Description("None")]
             None = 0,
-            [Description("SCAR-20 Trail Blazer")]
+            [Description("SCAR-20 | Trail Blazer")]
             SCAR20TrailBlazer = 1,
-            [Description("MP5-SD Statics")]
+            [Description("MP5-SD | Statics")]
             MP5SDStatics = 2,
-            [Description("M249 Hypnosis")]
+            [Description("M249 | Hypnosis")]
             M249Hypnosis = 3,
-            [Description("AUG Luxe Trim")]
+            [Description("AUG | Luxe Trim")]
             AUGLuxeTrim = 4,
-            [Description("R8 Revolver Tango")]
+            [Description("R8 | Revolver Tango")]
             R8RevolverTango = 5,
-            [Description("Desert Eagle Calligraffiti")]
+            [Description("Desert Eagle | Calligraffiti")]
             DesertEagleCalligraffiti = 6,
-            [Description("P90 Randy Rush")]
+            [Description("P90 | Randy Rush")]
             P90RandyRush = 7,
-            [Description("Dual Berettas Hydro Strike")]
+            [Description("Dual Berettas | Hydro Strike")]
             DualBerettasHydroStrike = 8,
-            [Description("MAC-10 Saiba Oni")]
+            [Description("MAC-10 | Saiba Oni")]
             MAC10SaibaOni = 9,
-            [Description("SSG 08 Rapid Transit")]
+            [Description("SSG 08 | Rapid Transit")]
             SSG08RapidTransit = 10,
-            [Description("M4A4 Turbine")]
+            [Description("M4A4 | Turbine")]
             M4A4Turbine = 11,
-            [Description("UMP-45 Neo-Noir")]
+            [Description("UMP-45 | Neo-Noir")]
             UMP45NeoNoir = 12,
-            [Description("P250 Epicenter")]
+            [Description("P250 | Epicenter")]
             P250Epicenter = 13,
-            [Description("AK-47 The Outsiders")]
+            [Description("AK-47 | The Outsiders")]
             AK47TheOutsiders = 14,
-            [Description("Glock-18 Gold Toof")]
+            [Description("Glock-18 | Gold Toof")]
             Glock18GoldToof = 15,
-            [Description("M4A1-S Vaporwave")]
+            [Description("M4A1-S | Vaporwave")]
             M4A1SVaporwave = 16,
-            [Description("Kukri Knife Crimson Web")]
+            [Description("Kukri Knife | Crimson Web")]
             KukriKnifeCrimsonWeb = 17,
-            [Description("Kukri Knife Fade")]
+            [Description("Kukri Knife | Fade")]
             KukriKnifeFade = 18,
-            [Description("Kukri Knife Slaughter")]
+            [Description("Kukri Knife | Slaughter")]
             KukriKnifeSlaughter = 19,
-            [Description("Kukri Knife Vanilla")]
+            [Description("Kukri Knife | Vanilla")]
             KukriKnifeVanilla = 20,
-            [Description("Kukri Knife Case Hardened")]
+            [Description("Kukri Knife | Case Hardened")]
             KukriKnifeCaseHardened = 21,
-            [Description("Kukri Knife Stained")]
+            [Description("Kukri Knife | Stained")]
             KukriKnifeStained = 22,
-            [Description("Kukri Knife Blue Steel")]
+            [Description("Kukri Knife | Blue Steel")]
             KukriKnifeBlueSteel = 23,
-            [Description("Kukri Knife Night Stripe")]
+            [Description("Kukri Knife | Night Stripe")]
             KukriKnifeNightStripe = 24,
-            [Description("Kukri Knife Urban Masked")]
+            [Description("Kukri Knife | Urban Masked")]
             KukriKnifeUrbanMasked = 25,
-            [Description("Kukri Knife Scorched")]
+            [Description("Kukri Knife | Scorched")]
             KukriKnifeScorched = 26,
-            [Description("Kukri Knife Forest DDPAT")]
+            [Description("Kukri Knife | Forest DDPAT")]
             KukriKnifeForestDDPAT = 27,
-            [Description("Kukri Knife Boreal Forest")]
+            [Description("Kukri Knife | Boreal Forest")]
             KukriKnifeBorealForest = 28,
-            [Description("Kukri Knife Safari Mesh")]
+            [Description("Kukri Knife | Safari Mesh")]
             KukriKnifeSafariMesh = 29
         }
 
