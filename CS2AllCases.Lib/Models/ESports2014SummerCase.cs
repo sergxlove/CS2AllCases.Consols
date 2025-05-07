@@ -5,9 +5,9 @@ using System.ComponentModel;
 
 namespace CS2AllCases.Lib.Models
 {
-    public class ESports2013Case : ICases
+    public class ESports2014SummerCase : ICases
     {
-        public ESports2013Case(ProbabilitiesDropOptions? options = null)
+        public ESports2014SummerCase(ProbabilitiesDropOptions? options = null)
         {
             options ??= new ProbabilitiesDropOptions();
             _options = options;
@@ -66,154 +66,170 @@ namespace CS2AllCases.Lib.Models
         {
             [Description("None")]
             None = 0,
-            [Description("MAG-7 | Memento")]
-            MAG7Memento = 1,
-            [Description("M4A4 | Faded Zebra")]
-            M4A4FadedZebra = 2,
-            [Description("FAMAS | Doomkitty")]
-            FAMASDoomkitty = 3,
-            [Description("Sawed-Off | Orange DDPAT")]
-            SawedOffOrangeDDPAT = 4,
-            [Description("P250 | Splash")]
-            P250Splash = 5,
-            [Description("Galil AR | Orange DDPAT")]
-            GalilAROrangeDDPAT = 6,
-            [Description("AWP | BOOM")]
-            AWPBOOM = 7,
-            [Description("AK-47 | Red Laminate")]
-            AK47RedLaminate = 8,
-            [Description("P90 | Death by Kitty")]
-            P90DeathByKitty = 9,
+            [Description("XM1014 | Red Python")]
+            XM1014RedPython = 1,
+            [Description("USP-S | Blood Tiger")]
+            USPSBloodTiger = 2,
+            [Description("SSG 08 | Dark Water")]
+            SSG08DarkWater = 3,
+            [Description("Negev | Bratatat")]
+            NegevBratatat = 4,
+            [Description("MAC-10 | Ultraviolet")]
+            MAC10Ultraviolet = 5,
+            [Description("CZ75-Auto | Hexane")]
+            CZ75AutoHexane = 6,
+            [Description("PP-Bizon | Blue Streak")]
+            PPBizonBlueStreak = 7,
+            [Description("P90 | Virus")]
+            P90Virus = 8,
+            [Description("MP7 | Ocean Foam")]
+            MP7OceanFoam = 9,
+            [Description("Glock-18 | Steel Disruption")]
+            Glock18SteelDisruption = 10,
+            [Description("Desert Eagle | Crimson Web")]
+            DesertEagleCrimsonWeb = 11,
+            [Description("P2000 | Corticera")]
+            P2000Corticera = 12,
+            [Description("Nova | Bloomstick")]
+            NovaBloomstick = 13,
+            [Description("AWP | Corticera")]
+            AWPCorticera = 14,
+            [Description("AUG | Bengal Tiger")]
+            AUGBengalTiger = 15,
+            [Description("M4A4 | Bullet Rain")]
+            M4A4BulletRain = 16,
+            [Description("AK-47 | Jaguar")]
+            AK47Jaguar = 17,
             [Description("Karambit | Fade")]
-            KarambitFade = 10,
+            KarambitFade = 18,
             [Description("Karambit | Vanilla")]
-            KarambitVanilla = 11,
+            KarambitVanilla = 19,
             [Description("Karambit | Slaughter")]
-            KarambitSlaughter = 12,
+            KarambitSlaughter = 20,
             [Description("M9 Bayonet | Fade")]
-            M9BayonetFade = 13,
+            M9BayonetFade = 21,
             [Description("Karambit | Case Hardened")]
-            KarambitCaseHardened = 14,
+            KarambitCaseHardened = 22,
             [Description("M9 Bayonet | Vanilla")]
-            M9BayonetVanilla = 15,
+            M9BayonetVanilla = 23,
             [Description("Karambit | Crimson Web")]
-            KarambitCrimsonWeb = 16,
+            KarambitCrimsonWeb = 24,
             [Description("M9 Bayonet | Slaughter")]
-            M9BayonetSlaughter = 17,
+            M9BayonetSlaughter = 25,
             [Description("Karambit | Blue Steel")]
-            KarambitBlueSteel = 18,
+            KarambitBlueSteel = 26,
             [Description("M9 Bayonet | Crimson Web")]
-            M9BayonetCrimsonWeb = 19,
+            M9BayonetCrimsonWeb = 27,
             [Description("Karambit | Night")]
-            KarambitNight = 20,
+            KarambitNight = 28,
             [Description("Karambit | Stained")]
-            KarambitStained = 21,
+            KarambitStained = 29,
             [Description("M9 Bayonet | Blue Steel")]
-            M9BayonetBlueSteel = 22,
+            M9BayonetBlueSteel = 30,
             [Description("M9 Bayonet | Case Hardened")]
-            M9BayonetCaseHardened = 23,
+            M9BayonetCaseHardened = 31,
             [Description("Karambit | Scorched")]
-            KarambitScorched = 24,
+            KarambitScorched = 32,
             [Description("Karambit | Urban Masked")]
-            KarambitUrbanMasked = 25,
+            KarambitUrbanMasked = 33,
             [Description("M9 Bayonet | Stained")]
-            M9BayonetStained = 26,
+            M9BayonetStained = 34,
             [Description("M9 Bayonet | Night")]
-            M9BayonetNight = 27,
+            M9BayonetNight = 35,
             [Description("Bayonet | Fade")]
-            BayonetFade = 28,
+            BayonetFade = 36,
             [Description("Karambit | Boreal Forest")]
-            KarambitBorealForest = 29,
+            KarambitBorealForest = 37,
             [Description("Karambit | Forest DDPAT")]
-            KarambitForestDDPAT = 30,
+            KarambitForestDDPAT = 38,
             [Description("Karambit | Safari Mesh")]
-            KarambitSafariMesh = 31,
+            KarambitSafariMesh = 39,
             [Description("Flip Knife | Fade")]
-            FlipKnifeFade = 32,
+            FlipKnifeFade = 40,
             [Description("Bayonet | Slaughter")]
-            BayonetSlaughter = 33,
+            BayonetSlaughter = 41,
             [Description("M9 Bayonet | Urban Masked")]
-            M9BayonetUrbanMasked = 34,
+            M9BayonetUrbanMasked = 42,
             [Description("M9 Bayonet | Scorched")]
-            M9BayonetScorched = 35,
+            M9BayonetScorched = 43,
             [Description("M9 Bayonet | Forest DDPAT")]
-            M9BayonetForestDDPAT = 36,
+            M9BayonetForestDDPAT = 44,
             [Description("M9 Bayonet | Boreal Forest")]
-            M9BayonetBorealForest = 37,
+            M9BayonetBorealForest = 45,
             [Description("M9 Bayonet | Safari Mesh")]
-            M9BayonetSafariMesh = 38,
+            M9BayonetSafariMesh = 46,
             [Description("Bayonet | Case Hardened")]
-            BayonetCaseHardened = 39,
+            BayonetCaseHardened = 47,
             [Description("Bayonet | Crimson Web")]
-            BayonetCrimsonWeb = 40,
+            BayonetCrimsonWeb = 48,
             [Description("Flip Knife | Slaughter")]
-            FlipKnifeSlaughter = 41,
+            FlipKnifeSlaughter = 49,
             [Description("Bayonet | Vanilla")]
-            BayonetVanilla = 42,
+            BayonetVanilla = 50,
             [Description("Flip Knife | Crimson Web")]
-            FlipKnifeCrimsonWeb = 43,
+            FlipKnifeCrimsonWeb = 51,
             [Description("Bayonet | Blue Steel")]
-            BayonetBlueSteel = 44,
+            BayonetBlueSteel = 52,
             [Description("Flip Knife | Vanilla")]
-            FlipKnifeVanilla = 45,
+            FlipKnifeVanilla = 53,
             [Description("Gut Knife | Case Hardened")]
-            GutKnifeCaseHardened = 46,
+            GutKnifeCaseHardened = 54,
             [Description("Bayonet | Night")]
-            BayonetNight = 47,
+            BayonetNight = 55,
             [Description("Flip Knife | Case Hardened")]
-            FlipKnifeCaseHardened = 48,
+            FlipKnifeCaseHardened = 56,
             [Description("Flip Knife | Blue Steel")]
-            FlipKnifeBlueSteel = 49,
+            FlipKnifeBlueSteel = 57,
             [Description("Bayonet | Stained")]
-            BayonetStained = 50,
+            BayonetStained = 58,
             [Description("Bayonet | Urban Masked")]
-            BayonetUrbanMasked = 51,
+            BayonetUrbanMasked = 59,
             [Description("Flip Knife | Night")]
-            FlipKnifeNight = 52,
+            FlipKnifeNight = 60,
             [Description("Bayonet | Scorched")]
-            BayonetScorched = 53,
+            BayonetScorched = 61,
             [Description("Bayonet | Boreal Forest")]
-            BayonetBorealForest = 54,
+            BayonetBorealForest = 62,
             [Description("Gut Knife | Fade")]
-            GutKnifeFade = 55,
+            GutKnifeFade = 63,
             [Description("Bayonet | Forest DDPAT")]
-            BayonetForestDDPAT = 56,
+            BayonetForestDDPAT = 64,
             [Description("Bayonet | Safari Mesh")]
-            BayonetSafariMesh = 57,
+            BayonetSafariMesh = 65,
             [Description("Flip Knife | Stained")]
-            FlipKnifeStained = 58,
+            FlipKnifeStained = 66,
             [Description("Flip Knife | Urban Masked")]
-            FlipKnifeUrbanMasked = 59,
+            FlipKnifeUrbanMasked = 67,
             [Description("Gut Knife | Slaughter")]
-            GutKnifeSlaughter = 60,
+            GutKnifeSlaughter = 68,
             [Description("Flip Knife | Scorched")]
-            FlipKnifeScorched = 61,
+            FlipKnifeScorched = 69,
             [Description("Flip Knife | Forest DDPAT")]
-            FlipKnifeForestDDPAT = 62,
+            FlipKnifeForestDDPAT = 70,
             [Description("Flip Knife | Boreal Forest")]
-            FlipKnifeBorealForest = 63,
+            FlipKnifeBorealForest = 71,
             [Description("Flip Knife | Safari Mesh")]
-            FlipKnifeSafariMesh = 64,
+            FlipKnifeSafariMesh = 72,
             [Description("Gut Knife | Crimson Web")]
-            GutKnifeCrimsonWeb = 65,
+            GutKnifeCrimsonWeb = 73,
             [Description("Gut Knife | Stained")]
-            GutKnifeStained = 66,
+            GutKnifeStained = 74,
             [Description("Gut Knife | Vanilla")]
-            GutKnifeVanilla = 67,
+            GutKnifeVanilla = 75,
             [Description("Gut Knife | Blue Steel")]
-            GutKnifeBlueSteel = 68,
+            GutKnifeBlueSteel = 76,
             [Description("Gut Knife | Night")]
-            GutKnifeNight = 69,
+            GutKnifeNight = 77,
             [Description("Gut Knife | Urban Masked")]
-            GutKnifeUrbanMasked = 70,
+            GutKnifeUrbanMasked = 78,
             [Description("Gut Knife | Scorched")]
-            GutKnifeScorched = 71,
+            GutKnifeScorched = 79,
             [Description("Gut Knife | Forest DDPAT")]
-            GutKnifeForestDDPAT = 72,
+            GutKnifeForestDDPAT = 80,
             [Description("Gut Knife | Boreal Forest")]
-            GutKnifeBorealForest = 73,
+            GutKnifeBorealForest = 81,
             [Description("Gut Knife | Safari Mesh")]
-            GutKnifeSafariMesh = 74
+            GutKnifeSafariMesh = 82
         }
 
         private List<Skins> SkinsArmy =
