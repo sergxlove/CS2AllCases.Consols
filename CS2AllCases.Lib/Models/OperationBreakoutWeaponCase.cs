@@ -65,7 +65,61 @@ namespace CS2AllCases.Lib.Models
         public enum Skins
         {
             [Description("None")]
-            None = 0
+            None = 0,
+            [Description("UMP-45 | Labyrinth")]
+            UMP45Labyrinth = 1,
+            [Description("SSG 08 | Abyss")]
+            SSG08Abyss = 2,
+            [Description("P2000 | Ivory")]
+            P2000Ivory = 3,
+            [Description("Negev | Desert-Strike")]
+            NegevDesertStrike = 4,
+            [Description("MP7 | Urban Hazard")]
+            MP7UrbanHazard = 5,
+            [Description("PP-Bizon | Osiris")]
+            PPBizonOsiris = 6,
+            [Description("P250 | Supernova")]
+            P250Supernova = 7,
+            [Description("Nova | Koi")]
+            NovaKoi = 8,
+            [Description("CZ75-Auto | Tigris")]
+            CZ75AutoTigris = 9,
+            [Description("Glock-18 | Water Elemental")]
+            Glock18WaterElemental = 10,
+            [Description("Five-SeveN | Fowl Play")]
+            FiveSevenFowlPlay = 11,
+            [Description("Desert Eagle | Conspiracy")]
+            DesertEagleConspiracy = 12,
+            [Description("P90 | Asiimov")]
+            P90Asiimov = 13,
+            [Description("M4A1-S | Cyrex")]
+            M4A1SCyrex = 14,
+            [Description("Butterfly Knife | Fade")]
+            ButterflyKnifeFade = 15,
+            [Description("Butterfly Knife | Vanilla")]
+            ButterflyKnifeVanilla = 16,
+            [Description("Butterfly Knife | Slaughter")]
+            ButterflyKnifeSlaughter = 17,
+            [Description("Butterfly Knife | Crimson Web")]
+            ButterflyKnifeCrimsonWeb = 18,
+            [Description("Butterfly Knife | Case Hardened")]
+            ButterflyKnifeCaseHardened = 19,
+            [Description("Butterfly Knife | Blue Steel")]
+            ButterflyKnifeBlueSteel = 20,
+            [Description("Butterfly Knife | Stained")]
+            ButterflyKnifeStained = 21,
+            [Description("Butterfly Knife | Night")]
+            ButterflyKnifeNight = 22,
+            [Description("Butterfly Knife | Scorched")]
+            ButterflyKnifeScorched = 23,
+            [Description("Butterfly Knife | Boreal Forest")]
+            ButterflyKnifeBorealForest = 24,
+            [Description("Butterfly Knife | Urban Masked")]
+            ButterflyKnifeUrbanMasked = 25,
+            [Description("Butterfly Knife | Forest DDPAT")]
+            ButterflyKnifeForestDDPAT = 26,
+            [Description("Butterfly Knife | Safari Mesh")]
+            ButterflyKnifeSafariMesh = 27
         }
 
         private List<Skins> SkinsArmy =
