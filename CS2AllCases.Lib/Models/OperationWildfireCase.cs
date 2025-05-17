@@ -65,7 +65,65 @@ namespace CS2AllCases.Lib.Models
         public enum Skins
         {
             [Description("None")]
-            None = 0
+            None = 0,
+            [Description("USP-S | Lead Conduit")]
+            USPSLeadConduit = 1,
+            [Description("Tec-9 | Jambiya")]
+            Tec9Jambiya = 2,
+            [Description("SSG 08 | Necropos")]
+            SSG08Necropos = 3,
+            [Description("PP-Bizon | Photic Zone")]
+            PPBizonPhoticZone = 4,
+            [Description("MAC-10 | Lapis Gator")]
+            MAC10LapisGator = 5,
+            [Description("Dual Berettas | Cartel")]
+            DualBerettasCartel = 6,
+            [Description("MP7 | Impire")]
+            MP7Impire = 7,
+            [Description("MAG-7 | Praetorian")]
+            MAG7Praetorian = 8,
+            [Description("Glock-18 | Royal Legion")]
+            Glock18RoyalLegion = 9,
+            [Description("Five-SeveN | Triumvirate")]
+            FiveSevenTriumvirate = 10,
+            [Description("FAMAS | Valence")]
+            FAMASValence = 11,
+            [Description("Nova | Hyper Beast")]
+            NovaHyperBeast = 12,
+            [Description("Desert Eagle | Kumicho Dragon")]
+            DesertEagleKumichoDragon = 13,
+            [Description("AWP | Elite Build")]
+            AWPEliteBuild = 14,
+            [Description("M4A4 | The Battlestar")]
+            M4A4TheBattlestar = 15,
+            [Description("AK-47 | Fuel Injector")]
+            AK47FuelInjector = 16,
+            [Description("Bowie Knife | Case Hardened")]
+            BowieKnifeCaseHardened = 17,
+            [Description("Bowie Knife | Fade")]
+            BowieKnifeFade = 18,
+            [Description("Bowie Knife | Slaughter")]
+            BowieKnifeSlaughter = 19,
+            [Description("Bowie Knife | Crimson Web")]
+            BowieKnifeCrimsonWeb = 20,
+            [Description("Bowie Knife | Blue Steel")]
+            BowieKnifeBlueSteel = 21,
+            [Description("Bowie Knife | Vanilla")]
+            BowieKnifeVanilla = 22,
+            [Description("Bowie Knife | Stained")]
+            BowieKnifeStained = 23,
+            [Description("Bowie Knife | Night")]
+            BowieKnifeNight = 24,
+            [Description("Bowie Knife | Boreal Forest")]
+            BowieKnifeBorealForest = 25,
+            [Description("Bowie Knife | Forest DDPAT")]
+            BowieKnifeForestDDPAT = 26,
+            [Description("Bowie Knife | Urban Masked")]
+            BowieKnifeUrbanMasked = 27,
+            [Description("Bowie Knife | Scorched")]
+            BowieKnifeScorched = 28,
+            [Description("Bowie Knife | Safari Mesh")]
+            BowieKnifeSafariMesh = 29
         }
 
         private List<Skins> SkinsArmy =
