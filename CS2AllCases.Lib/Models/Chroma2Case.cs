@@ -206,27 +206,90 @@ namespace CS2AllCases.Lib.Models
 
         private List<Skins> SkinsArmy =
         [
-            
+            Skins.NegevManOWar,
+            Skins.SawedOffOrigami,
+            Skins.MP7ArmorCore,
+            Skins.DesertEagleBronzeDeco,
+            Skins.P250Valence,
+            Skins.AK47EliteBuild
         ];
 
         private List<Skins> SkinsForbidden =
         [
-            
+            Skins.UMP45GrandPrix,
+            Skins.CZ75AutoPolePosition,
+            Skins.AWPWormGod,
+            Skins.MAG7Heat
         ];
 
         private List<Skins> SkinsClassified =
         [
-            
+            Skins.FAMASDjinn,
+            Skins.FiveSevenMonkeyBusiness,
+            Skins.GalilAREco
         ];
 
         private List<Skins> SkinsSecret =
         [
-            
+            Skins.MAC10NeonRider,
+            Skins.M4A1SHyperBeast
         ];
 
         private List<Skins> SkinsRareItem =
         [
-            
+            Skins.KarambitDopplerRuby,
+            Skins.M9BayonetDopplerRuby,
+            Skins.M9BayonetDopplerSapphire,
+            Skins.KarambitDopplerSapphire,
+            Skins.M9BayonetDopplerBlackPearl,
+            Skins.KarambitDopplerPhase2,
+            Skins.M9BayonetDopplerPhase2,
+            Skins.KarambitDopplerPhase4,
+            Skins.BayonetDopplerRuby,
+            Skins.FlipKnifeDopplerRuby,
+            Skins.KarambitDopplerBlackPearl,
+            Skins.KarambitDopplerPhase1,
+            Skins.KarambitDopplerPhase3,
+            Skins.BayonetDopplerBlackPearl,
+            Skins.BayonetDopplerSapphire,
+            Skins.M9BayonetDopplerPhase4,
+            Skins.FlipKnifeDopplerSapphire,
+            Skins.KarambitMarbleFade,
+            Skins.M9BayonetDopplerPhase1,
+            Skins.M9BayonetDopplerPhase3,
+            Skins.FlipKnifeDopplerBlackPearl,
+            Skins.KarambitTigerTooth,
+            Skins.M9BayonetMarbleFade,
+            Skins.M9BayonetTigerTooth,
+            Skins.KarambitDamascusSteel,
+            Skins.KarambitUltraviolet,
+            Skins.BayonetDopplerPhase2,
+            Skins.M9BayonetDamascusSteel,
+            Skins.M9BayonetUltraviolet,
+            Skins.BayonetDopplerPhase4,
+            Skins.BayonetDopplerPhase1,
+            Skins.BayonetDopplerPhase3,
+            Skins.M9BayonetRustCoat,
+            Skins.GutKnifeDopplerRuby,
+            Skins.GutKnifeDopplerBlackPearl,
+            Skins.BayonetMarbleFade,
+            Skins.BayonetUltraviolet,
+            Skins.BayonetTigerTooth,
+            Skins.GutKnifeDopplerSapphire,
+            Skins.FlipKnifeMarbleFade,
+            Skins.FlipKnifeTigerTooth,
+            Skins.FlipKnifeUltraviolet,
+            Skins.BayonetDamascusSteel,
+            Skins.FlipKnifeDamascusSteel,
+            Skins.BayonetRustCoat,
+            Skins.GutKnifeDopplerPhase1,
+            Skins.GutKnifeDopplerPhase4,
+            Skins.GutKnifeMarbleFade,
+            Skins.FlipKnifeRustCoat,
+            Skins.GutKnifeTigerTooth,
+            Skins.GutKnifeDamascusSteel,
+            Skins.GutKnifeUltraviolet,
+            Skins.GutKnifeRustCoat
         ];
     }
 }
