@@ -204,27 +204,89 @@ namespace CS2AllCases.Lib.Models
 
         private List<Skins> SkinsArmy =
         [
-
+            Skins.SCAR20Poultrygeist,
+            Skins.SawedOffSpiritBoard,
+            Skins.P2000LiftedSpirits,
+            Skins.MP5SDNecroJr,
+            Skins.MAG7Foresight,
+            Skins.MAC10Ensnared,
+            Skins.FiveSevenScrawl
         ];
 
         private List<Skins> SkinsForbidden =
         [
-
+            Skins.XM1014ZombieOffensive,
+            Skins.USPSTicketToHell,
+            Skins.PPBizonSpaceCat,
+            Skins.M4A1SNightTerror,
+            Skins.G3SG1DreamGlade
         ];
 
         private List<Skins> SkinsClassified =
         [
-
+            Skins.MP7AbyssalApparition,
+            Skins.FAMASRapidEyeMovement,
+            Skins.DualBerettasMelondrama
         ];
 
         private List<Skins> SkinsSecret =
         [
-
+            Skins.MP9StarlightProtector,
+            Skins.AK47Nightwish
         ];
 
         private List<Skins> SkinsRareItem =
         [
-
+            Skins.ButterflyKnifeGammaDopplerEmerald,
+            Skins.ButterflyKnifeGammaDopplerPhase2,
+            Skins.ButterflyKnifeGammaDopplerPhase1,
+            Skins.ButterflyKnifeGammaDopplerPhase3,
+            Skins.ButterflyKnifeGammaDopplerPhase4,
+            Skins.ButterflyKnifeLore,
+            Skins.ButterflyKnifeAutotronic,
+            Skins.ButterflyKnifeBlackLaminate,
+            Skins.HuntsmanKnifeGammaDopplerEmerald,
+            Skins.ButterflyKnifeFreehand,
+            Skins.ButterflyKnifeBrightWater,
+            Skins.BowieKnifeGammaDopplerEmerald,
+            Skins.FalchionKnifeGammaDopplerEmerald,
+            Skins.HuntsmanKnifeGammaDopplerPhase2,
+            Skins.HuntsmanKnifeGammaDopplerPhase1,
+            Skins.HuntsmanKnifeGammaDopplerPhase3,
+            Skins.HuntsmanKnifeGammaDopplerPhase4,
+            Skins.FalchionKnifeGammaDopplerPhase2,
+            Skins.FalchionKnifeGammaDopplerPhase1,
+            Skins.ShadowDaggersGammaDopplerEmerald,
+            Skins.FalchionKnifeGammaDopplerPhase4,
+            Skins.BowieKnifeGammaDopplerPhase2,
+            Skins.FalchionKnifeGammaDopplerPhase3,
+            Skins.BowieKnifeGammaDopplerPhase1,
+            Skins.BowieKnifeGammaDopplerPhase4,
+            Skins.BowieKnifeGammaDopplerPhase3,
+            Skins.BowieKnifeLore,
+            Skins.HuntsmanKnifeAutotronic,
+            Skins.FalchionKnifeAutotronic,
+            Skins.HuntsmanKnifeLore,
+            Skins.BowieKnifeAutotronic,
+            Skins.FalchionKnifeLore,
+            Skins.ShadowDaggersLore,
+            Skins.ShadowDaggersGammaDopplerPhase4,
+            Skins.HuntsmanKnifeBlackLaminate,
+            Skins.ShadowDaggersGammaDopplerPhase2,
+            Skins.ShadowDaggersGammaDopplerPhase3,
+            Skins.ShadowDaggersGammaDopplerPhase1,
+            Skins.BowieKnifeBlackLaminate,
+            Skins.FalchionKnifeFreehand,
+            Skins.HuntsmanKnifeFreehand,
+            Skins.BowieKnifeFreehand,
+            Skins.FalchionKnifeBrightWater,
+            Skins.HuntsmanKnifeBrightWater,
+            Skins.FalchionKnifeBlackLaminate,
+            Skins.ShadowDaggersAutotronic,
+            Skins.BowieKnifeBrightWater,
+            Skins.ShadowDaggersFreehand,
+            Skins.ShadowDaggersBlackLaminate,
+            Skins.ShadowDaggersBrightWater
         ];
     }
 }

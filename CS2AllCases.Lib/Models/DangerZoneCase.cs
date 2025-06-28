@@ -208,27 +208,91 @@ namespace CS2AllCases.Lib.Models
 
         private List<Skins> SkinsArmy =
         [
-
+            Skins.Tec9Fubar,
+            Skins.SG553DangerClose,
+            Skins.SawedOffBlackSand,
+            Skins.NovaWoodFired,
+            Skins.MP9ModestThreat,
+            Skins.M4A4Magnesium,
+            Skins.Glock18OxideBlaze
         ];
 
         private List<Skins> SkinsForbidden =
         [
-
+            Skins.USPSFlashback,
+            Skins.P250Nevermore,
+            Skins.MAC10PipeDown,
+            Skins.GalilARSignal,
+            Skins.G3SG1Scavenger
         ];
 
         private List<Skins> SkinsClassified =
         [
-
+            Skins.UMP45Momentum,
+            Skins.MP5SDPhosphor,
+            Skins.DesertEagleMechaIndustries
         ];
 
         private List<Skins> SkinsSecret =
         [
-
+            Skins.AWPNeoNoir,
+            Skins.AK47Asiimov
         ];
 
         private List<Skins> SkinsRareItem =
         [
-
+            Skins.TalonKnifeFade,
+            Skins.TalonKnifeSlaughter,
+            Skins.TalonKnifeCaseHardened,
+            Skins.StilettoKnifeFade,
+            Skins.TalonKnifeCrimsonWeb,
+            Skins.StilettoKnifeSlaughter,
+            Skins.TalonKnifeBlueSteel,
+            Skins.TalonKnifeVanilla,
+            Skins.StilettoKnifeCaseHardened,
+            Skins.StilettoKnifeCrimsonWeb,
+            Skins.TalonKnifeStained,
+            Skins.UrsusKnifeFade,
+            Skins.StilettoKnifeBlueSteel,
+            Skins.TalonKnifeNightStripe,
+            Skins.StilettoKnifeVanilla,
+            Skins.TalonKnifeForestDDPAT,
+            Skins.TalonKnifeScorched,
+            Skins.TalonKnifeUrbanMasked,
+            Skins.StilettoKnifeStained,
+            Skins.NavajaKnifeCrimsonWeb,
+            Skins.UrsusKnifeSlaughter,
+            Skins.TalonKnifeBorealForest,
+            Skins.TalonKnifeSafariMesh,
+            Skins.UrsusKnifeCrimsonWeb,
+            Skins.UrsusKnifeCaseHardened,
+            Skins.StilettoKnifeUrbanMasked,
+            Skins.StilettoKnifeNightStripe,
+            Skins.StilettoKnifeScorched,
+            Skins.StilettoKnifeBorealForest,
+            Skins.UrsusKnifeBlueSteel,
+            Skins.UrsusKnifeUrbanMasked,
+            Skins.UrsusKnifeVanilla,
+            Skins.UrsusKnifeNightStripe,
+            Skins.StilettoKnifeForestDDPAT,
+            Skins.StilettoKnifeSafariMesh,
+            Skins.NavajaKnifeCaseHardened,
+            Skins.NavajaKnifeFade,
+            Skins.UrsusKnifeStained,
+            Skins.UrsusKnifeBorealForest,
+            Skins.NavajaKnifeSlaughter,
+            Skins.UrsusKnifeScorched,
+            Skins.UrsusKnifeForestDDPAT,
+            Skins.UrsusKnifeSafariMesh,
+            Skins.NavajaKnifeBlueSteel,
+            Skins.NavajaKnifeStained,
+            Skins.NavajaKnifeVanilla,
+            Skins.NavajaKnifeUrbanMasked,
+            Skins.NavajaKnifeNightStripe,
+            Skins.NavajaKnifeScorched,
+            Skins.NavajaKnifeForestDDPAT,
+            Skins.NavajaKnifeBorealForest,
+            Skins.NavajaKnifeSafariMesh
         ];
     }
 }
