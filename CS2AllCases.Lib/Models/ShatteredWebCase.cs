@@ -208,27 +208,91 @@ namespace CS2AllCases.Lib.Models
 
         private List<Skins> SkinsArmy =
         [
-
+            Skins.SCAR20Torn,
+            Skins.R8RevolverMemento,
+            Skins.NovaPlume,
+            Skins.MP5SDAcidWash,
+            Skins.M249Warbird,
+            Skins.G3SG1BlackSand,
+            Skins.DualBerettasBalance
         ];
 
         private List<Skins> SkinsForbidden =
         [
-
+            Skins.PPBizonEmbargo,
+            Skins.P2000Obsidian,
+            Skins.MP7NeonPly,
+            Skins.AUGArcticWolf,
+            Skins.AK47RatRod
         ];
 
         private List<Skins> SkinsClassified =
         [
-
+            Skins.Tec9Decimator,
+            Skins.SSG08Bloodshot,
+            Skins.SG553ColonyIV
         ];
 
         private List<Skins> SkinsSecret =
         [
-
+            Skins.MAC10Stalker,
+            Skins.AWPContainmentBreach
         ];
 
         private List<Skins> SkinsRareItem =
         [
-
+            Skins.SkeletonKnifeFade,
+            Skins.NomadKnifeFade,
+            Skins.SkeletonKnifeSlaughter,
+            Skins.SkeletonKnifeCrimsonWeb,
+            Skins.SkeletonKnifeCaseHardened,
+            Skins.SkeletonKnifeVanilla,
+            Skins.SurvivalKnifeCrimsonWeb,
+            Skins.SkeletonKnifeBlueSteel,
+            Skins.NomadKnifeCaseHardened,
+            Skins.NomadKnifeSlaughter,
+            Skins.SkeletonKnifeStained,
+            Skins.SkeletonKnifeNightStripe,
+            Skins.NomadKnifeCrimsonWeb,
+            Skins.NomadKnifeVanilla,
+            Skins.SkeletonKnifeUrbanMasked,
+            Skins.SkeletonKnifeScorched,
+            Skins.ParacordKnifeFade,
+            Skins.NomadKnifeStained,
+            Skins.NomadKnifeBlueSteel,
+            Skins.SkeletonKnifeForestDDPAT,
+            Skins.SurvivalKnifeFade,
+            Skins.SkeletonKnifeBorealForest,
+            Skins.ParacordKnifeCaseHardened,
+            Skins.SkeletonKnifeSafariMesh,
+            Skins.NomadKnifeNightStripe,
+            Skins.ParacordKnifeSlaughter,
+            Skins.SurvivalKnifeCaseHardened,
+            Skins.ParacordKnifeCrimsonWeb,
+            Skins.NomadKnifeScorched,
+            Skins.SurvivalKnifeSlaughter,
+            Skins.ParacordKnifeBlueSteel,
+            Skins.ParacordKnifeUrbanMasked,
+            Skins.NomadKnifeUrbanMasked,
+            Skins.SurvivalKnifeBlueSteel,
+            Skins.ParacordKnifeStained,
+            Skins.NomadKnifeForestDDPAT,
+            Skins.NomadKnifeBorealForest,
+            Skins.SurvivalKnifeVanilla,
+            Skins.ParacordKnifeVanilla,
+            Skins.SurvivalKnifeNightStripe,
+            Skins.SurvivalKnifeUrbanMasked,
+            Skins.ParacordKnifeForestDDPAT,
+            Skins.NomadKnifeSafariMesh,
+            Skins.SurvivalKnifeScorched,
+            Skins.SurvivalKnifeBorealForest,
+            Skins.SurvivalKnifeStained,
+            Skins.ParacordKnifeSafariMesh,
+            Skins.SurvivalKnifeForestDDPAT,
+            Skins.ParacordKnifeBorealForest,
+            Skins.ParacordKnifeNightStripe,
+            Skins.ParacordKnifeScorched,
+            Skins.SurvivalKnifeSafariMesh
         ];
     }
 }

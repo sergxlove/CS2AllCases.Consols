@@ -224,27 +224,99 @@ namespace CS2AllCases.Lib.Models
 
         private List<Skins> SkinsArmy =
         [
-
+            Skins.Tec9CrackedOpal,
+            Skins.SCAR20JungleSlipstream,
+            Skins.SawedOffMorris,
+            Skins.MAC10Oceanic,
+            Skins.Glock18OffWorld,
+            Skins.G3SG1Hunter,
+            Skins.AUGTriqua
         ];
 
         private List<Skins> SkinsForbidden =
         [
-
+            Skins.XM1014Ziggy,
+            Skins.UMP45Exposure,
+            Skins.SG553Phantom,
+            Skins.MP9Goo,
+            Skins.CZ75AutoTacticat
         ];
 
         private List<Skins> SkinsClassified =
         [
-
+            Skins.R8RevolverLlamaCannon,
+            Skins.PPBizonHighRoller,
+            Skins.M4A1SLeadedGlass
         ];
 
         private List<Skins> SkinsSecret =
         [
-
+            Skins.P250SeeYaLater,
+            Skins.AK47TheEmpress
         ];
 
         private List<Skins> SkinsRareItem =
         [
-
+            Skins.ButterflyKnifeDopplerRuby,
+            Skins.ButterflyKnifeDopplerSapphire,
+            Skins.ButterflyKnifeDopplerPhase2,
+            Skins.ButterflyKnifeDopplerBlackPearl,
+            Skins.ButterflyKnifeDopplerPhase4,
+            Skins.ButterflyKnifeDopplerPhase1,
+            Skins.ButterflyKnifeDopplerPhase3,
+            Skins.ButterflyKnifeMarbleFade,
+            Skins.ButterflyKnifeTigerTooth,
+            Skins.HuntsmanKnifeDopplerBlackPearl,
+            Skins.HuntsmanKnifeDopplerRuby,
+            Skins.ButterflyKnifeDamascusSteel,
+            Skins.BowieKnifeDopplerRuby,
+            Skins.ButterflyKnifeUltraviolet,
+            Skins.HuntsmanKnifeDopplerSapphire,
+            Skins.FalchionKnifeDopplerRuby,
+            Skins.FalchionKnifeDopplerBlackPearl,
+            Skins.ButterflyKnifeRustCoat,
+            Skins.BowieKnifeDopplerSapphire,
+            Skins.FalchionKnifeDopplerSapphire,
+            Skins.ShadowDaggersDopplerBlackPearl,
+            Skins.BowieKnifeDopplerBlackPearl,
+            Skins.HuntsmanKnifeDopplerPhase2,
+            Skins.FalchionKnifeDopplerPhase2,
+            Skins.ShadowDaggersDopplerRuby,
+            Skins.HuntsmanKnifeDopplerPhase1,
+            Skins.HuntsmanKnifeDopplerPhase4,
+            Skins.BowieKnifeDopplerPhase2,
+            Skins.HuntsmanKnifeDopplerPhase3,
+            Skins.BowieKnifeDopplerPhase4,
+            Skins.BowieKnifeDopplerPhase3,
+            Skins.FalchionKnifeDopplerPhase1,
+            Skins.FalchionKnifeDopplerPhase4,
+            Skins.BowieKnifeDopplerPhase1,
+            Skins.FalchionKnifeDopplerPhase3,
+            Skins.ShadowDaggersDopplerSapphire,
+            Skins.HuntsmanKnifeMarbleFade,
+            Skins.BowieKnifeMarbleFade,
+            Skins.FalchionKnifeMarbleFade,
+            Skins.ShadowDaggersDopplerPhase2,
+            Skins.HuntsmanKnifeTigerTooth,
+            Skins.BowieKnifeUltraviolet,
+            Skins.HuntsmanKnifeUltraviolet,
+            Skins.BowieKnifeTigerTooth,
+            Skins.FalchionKnifeTigerTooth,
+            Skins.ShadowDaggersDopplerPhase4,
+            Skins.ShadowDaggersDopplerPhase1,
+            Skins.ShadowDaggersDopplerPhase3,
+            Skins.HuntsmanKnifeDamascusSteel,
+            Skins.BowieKnifeDamascusSteel,
+            Skins.ShadowDaggersUltraviolet,
+            Skins.ShadowDaggersMarbleFade,
+            Skins.FalchionKnifeDamascusSteel,
+            Skins.FalchionKnifeUltraviolet,
+            Skins.ShadowDaggersTigerTooth,
+            Skins.FalchionKnifeRustCoat,
+            Skins.BowieKnifeRustCoat,
+            Skins.HuntsmanKnifeRustCoat,
+            Skins.ShadowDaggersDamascusSteel,
+            Skins.ShadowDaggersRustCoat
         ];
     }
 }

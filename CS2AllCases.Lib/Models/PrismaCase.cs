@@ -200,27 +200,87 @@ namespace CS2AllCases.Lib.Models
 
         private List<Skins> SkinsArmy =
         [
-
+            Skins.P90OffWorld,
+            Skins.P250Verdigris,
+            Skins.MP7Mischief,
+            Skins.MAC10Whitefish,
+            Skins.GalilARAkoben,
+            Skins.FAMASCrypsis,
+            Skins.AK47Uncharted
         ];
 
         private List<Skins> SkinsForbidden =
         [
-
+            Skins.UMP45Moonrise,
+            Skins.Tec9Bamboozle,
+            Skins.MP5SDGauss,
+            Skins.DesertEagleLightRail,
+            Skins.AWPAtheris
         ];
 
         private List<Skins> SkinsClassified =
         [
-
+            Skins.XM1014Incinegator,
+            Skins.R8RevolverSkullCrusher,
+            Skins.AUGMomentum
         ];
 
         private List<Skins> SkinsSecret =
         [
-
+            Skins.M4A4TheEmperor,
+            Skins.FiveSevenAngryMob
         ];
 
         private List<Skins> SkinsRareItem =
         [
-
+            Skins.TalonKnifeDopplerRuby,
+            Skins.TalonKnifeDopplerSapphire,
+            Skins.StilettoKnifeDopplerRuby,
+            Skins.TalonKnifeDopplerBlackPearl,
+            Skins.StilettoKnifeDopplerSapphire,
+            Skins.StilettoKnifeDopplerBlackPearl,
+            Skins.TalonKnifeDopplerPhase2,
+            Skins.UrsusKnifeDopplerRuby,
+            Skins.UrsusKnifeDopplerBlackPearl,
+            Skins.TalonKnifeDopplerPhase4,
+            Skins.TalonKnifeDopplerPhase3,
+            Skins.UrsusKnifeDopplerSapphire,
+            Skins.TalonKnifeDopplerPhase1,
+            Skins.StilettoKnifeDopplerPhase2,
+            Skins.TalonKnifeMarbleFade,
+            Skins.StilettoKnifeDopplerPhase1,
+            Skins.StilettoKnifeDopplerPhase4,
+            Skins.TalonKnifeUltraviolet,
+            Skins.StilettoKnifeDopplerPhase3,
+            Skins.TalonKnifeTigerTooth,
+            Skins.StilettoKnifeMarbleFade,
+            Skins.UrsusKnifeDopplerPhase2,
+            Skins.TalonKnifeDamascusSteel,
+            Skins.StilettoKnifeUltraviolet,
+            Skins.StilettoKnifeTigerTooth,
+            Skins.UrsusKnifeDopplerPhase4,
+            Skins.UrsusKnifeDopplerPhase1,
+            Skins.UrsusKnifeDopplerPhase3,
+            Skins.NavajaKnifeDopplerBlackPearl,
+            Skins.NavajaKnifeDopplerRuby,
+            Skins.TalonKnifeRustCoat,
+            Skins.UrsusKnifeUltraviolet,
+            Skins.StilettoKnifeDamascusSteel,
+            Skins.UrsusKnifeMarbleFade,
+            Skins.NavajaKnifeDopplerSapphire,
+            Skins.UrsusKnifeTigerTooth,
+            Skins.StilettoKnifeRustCoat,
+            Skins.NavajaKnifeDopplerPhase2,
+            Skins.UrsusKnifeDamascusSteel,
+            Skins.NavajaKnifeDopplerPhase4,
+            Skins.NavajaKnifeDopplerPhase1,
+            Skins.NavajaKnifeDopplerPhase3,
+            Skins.NavajaKnifeMarbleFade,
+            Skins.UrsusKnifeRustCoat,
+            Skins.NavajaKnifeTigerTooth,
+            Skins.NavajaKnifeUltraviolet,
+            Skins.NavajaKnifeDamascusSteel,
+            Skins.NavajaKnifeRustCoat
         ];
     }
 }

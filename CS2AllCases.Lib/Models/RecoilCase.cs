@@ -152,27 +152,63 @@ namespace CS2AllCases.Lib.Models
 
         private List<Skins> SkinsArmy =
         [
-
+            Skins.UMP45Roadblock,
+            Skins.NegevDropMe,
+            Skins.MAC10Monkeyflage,
+            Skins.M4A4PolyMag,
+            Skins.Glock18Winterized,
+            Skins.GalilARDestroyer,
+            Skins.FAMASMeow36
         ];
 
         private List<Skins> SkinsForbidden =
         [
-
+            Skins.SG553DragonTech,
+            Skins.R8RevolverCrazy8,
+            Skins.P90VentRush,
+            Skins.M249Downtown,
+            Skins.DualBerettasFloraCarnivora
         ];
 
         private List<Skins> SkinsClassified =
         [
-
+            Skins.SawedOffKissLove,
+            Skins.P250Visions,
+            Skins.AK47IceCoaled
         ];
 
         private List<Skins> SkinsSecret =
         [
-
+            Skins.USPSPrintstream,
+            Skins.AWPChromaticAberration
         ];
 
         private List<Skins> SkinsRareItem =
         [
-
+            Skins.SpecialistGlovesMarbleFade,
+            Skins.SportGlovesSlingshot,
+            Skins.SportGlovesNocts,
+            Skins.SportGlovesBigGame,
+            Skins.DriverGlovesSnowLeopard,
+            Skins.HandWrapsCAUTION,
+            Skins.MotoGlovesFinishLine,
+            Skins.SpecialistGlovesTigerStrike,
+            Skins.DriverGlovesRezanTheRed,
+            Skins.BrokenFangGlovesJade,
+            Skins.SportGlovesScarletShamagh,
+            Skins.SpecialistGlovesFieldAgent,
+            Skins.DriverGlovesBlackTie,
+            Skins.DriverGlovesQueenJaguar,
+            Skins.BrokenFangGlovesYellowBanded,
+            Skins.HandWrapsGiraffe,
+            Skins.SpecialistGlovesLtCommander,
+            Skins.MotoGlovesBloodPressure,
+            Skins.MotoGlovesSmokeOut,
+            Skins.HandWrapsConstrictor,
+            Skins.BrokenFangGlovesNeedlePoint,
+            Skins.MotoGloves3rdCommandoCompany,
+            Skins.BrokenFangGlovesUnhinged,
+            Skins.HandWrapsDesertShamagh
         ];
     }
 }
