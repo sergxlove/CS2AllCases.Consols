@@ -2,6 +2,7 @@
 using CS2AllCases.Lib.Contracts;
 using PropertyItem;
 using System.ComponentModel;
+using System.Reflection.Metadata;
 
 namespace CS2AllCases.Lib.Models
 {
@@ -216,27 +217,95 @@ namespace CS2AllCases.Lib.Models
 
         private List<Skins> SkinsArmy =
         [
-
+            Skins.XM1014Slipstream,
+            Skins.UMP45Briefing,
+            Skins.P90Grim,
+            Skins.NegevDazzle,
+            Skins.G3SG1Ventilator,
+            Skins.FiveSevenScumbria,
+            Skins.CZ75AutoImprint
         ];
 
         private List<Skins> SkinsForbidden =
         [
-
+            Skins.SG553Triarch,
+            Skins.SCAR20Powercore,
+            Skins.MAG7Petroglyph,
+            Skins.Glock18Weasel,
+            Skins.DesertEagleDirective
         ];
 
         private List<Skins> SkinsClassified =
         [
-
+            Skins.Tec9FuelInjector,
+            Skins.MP9Airlock,
+            Skins.AUGSydMead
         ];
 
         private List<Skins> SkinsSecret =
         [
-
+            Skins.FAMASRollCage,
+            Skins.AK47NeonRevolution
         ];
 
         private List<Skins> SkinsRareItem =
         [
-
+            Skins.KarambitGammaDopplerEmerald,
+            Skins.M9BayonetGammaDopplerEmerald,
+            Skins.KarambitGammaDopplerPhase2,
+            Skins.KarambitGammaDopplerPhase1,
+            Skins.KarambitGammaDopplerPhase3,
+            Skins.KarambitGammaDopplerPhase4,
+            Skins.M9BayonetGammaDopplerPhase2,
+            Skins.BayonetGammaDopplerEmerald,
+            Skins.FlipKnifeGammaDopplerEmerald,
+            Skins.M9BayonetGammaDopplerPhase1,
+            Skins.M9BayonetGammaDopplerPhase3,
+            Skins.M9BayonetGammaDopplerPhase4,
+            Skins.M9BayonetLore,
+            Skins.KarambitLore,
+            Skins.KarambitAutotronic,
+            Skins.M9BayonetAutotronic,
+            Skins.KarambitBlackLaminate,
+            Skins.BayonetGammaDopplerPhase2,
+            Skins.FlipKnifeGammaDopplerPhase2,
+            Skins.KarambitFreehand,
+            Skins.M9BayonetBlackLaminate,
+            Skins.FlipKnifeDopplerPhase2,
+            Skins.BayonetGammaDopplerPhase1,
+            Skins.BayonetGammaDopplerPhase4,
+            Skins.BayonetGammaDopplerPhase3,
+            Skins.KarambitBrightWater,
+            Skins.FlipKnifeGammaDopplerPhase3,
+            Skins.FlipKnifeGammaDopplerPhase4,
+            Skins.FlipKnifeGammaDopplerPhase1,
+            Skins.M9BayonetBrightWater,
+            Skins.M9BayonetFreehand,
+            Skins.BayonetAutotronic,
+            Skins.BayonetLore,
+            Skins.GutKnifeGammaDopplerEmerald,
+            Skins.FlipKnifeDopplerPhase4,
+            Skins.FlipKnifeDopplerPhase1,
+            Skins.FlipKnifeDopplerPhase3,
+            Skins.FlipKnifeAutotronic,
+            Skins.FlipKnifeLore,
+            Skins.BayonetBlackLaminate,
+            Skins.BayonetBrightWater,
+            Skins.BayonetFreehand,
+            Skins.FlipKnifeBlackLaminate,
+            Skins.GutKnifeGammaDopplerPhase2,
+            Skins.GutKnifeGammaDopplerPhase4,
+            Skins.GutKnifeGammaDopplerPhase3,
+            Skins.GutKnifeGammaDopplerPhase1,
+            Skins.GutKnifeDopplerPhase2,
+            Skins.FlipKnifeBrightWater,
+            Skins.GutKnifeAutotronic,
+            Skins.GutKnifeLore,
+            Skins.FlipKnifeFreehand,
+            Skins.GutKnifeDopplerPhase3,
+            Skins.GutKnifeBlackLaminate,
+            Skins.GutKnifeFreehand,
+            Skins.GutKnifeBrightWater
         ];
     }
 }

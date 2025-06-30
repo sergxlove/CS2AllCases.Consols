@@ -124,27 +124,49 @@ namespace CS2AllCases.Lib.Models
 
         private List<Skins> SkinsArmy =
         [
-
+            Skins.UMP45Labyrinth,
+            Skins.SSG08Abyss,
+            Skins.P2000Ivory,
+            Skins.NegevDesertStrike,
+            Skins.MP7UrbanHazard
         ];
 
         private List<Skins> SkinsForbidden =
         [
-
+            Skins.PPBizonOsiris,
+            Skins.P250Supernova,
+            Skins.NovaKoi,
+            Skins.CZ75AutoTigris,
         ];
 
         private List<Skins> SkinsClassified =
         [
-
+            Skins.Glock18WaterElemental,
+            Skins.FiveSevenFowlPlay,
+            Skins.DesertEagleConspiracy
         ];
 
         private List<Skins> SkinsSecret =
         [
-
+            Skins.P90Asiimov,
+            Skins.M4A1SCyrex
         ];
 
         private List<Skins> SkinsRareItem =
         [
-
+            Skins.ButterflyKnifeFade,
+            Skins.ButterflyKnifeVanilla,
+            Skins.ButterflyKnifeSlaughter,
+            Skins.ButterflyKnifeCrimsonWeb,
+            Skins.ButterflyKnifeCaseHardened,
+            Skins.ButterflyKnifeBlueSteel,
+            Skins.ButterflyKnifeStained,
+            Skins.ButterflyKnifeNight,
+            Skins.ButterflyKnifeScorched,
+            Skins.ButterflyKnifeBorealForest,
+            Skins.ButterflyKnifeUrbanMasked,
+            Skins.ButterflyKnifeForestDDPAT,
+            Skins.ButterflyKnifeSafariMesh
         ];
     }
 }

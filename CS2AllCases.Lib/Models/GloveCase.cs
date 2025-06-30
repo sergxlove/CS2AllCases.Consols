@@ -152,27 +152,63 @@ namespace CS2AllCases.Lib.Models
 
         private List<Skins> SkinsArmy =
         [
-
+            Skins.P2000Turf,
+            Skins.MP9SandScale,
+            Skins.MP7Cirrus,
+            Skins.MAG7Sonar,
+            Skins.Glock18Ironwork,
+            Skins.GalilARBlackSand,
+            Skins.CZ75AutoPolymer
         ];
 
         private List<Skins> SkinsForbidden =
         [
-
+            Skins.USPSCyrex,
+            Skins.NovaGila,
+            Skins.M4A1SFlashback,
+            Skins.G3SG1Stinger,
+            Skins.DualBerettasRoyalConsorts
         ];
 
         private List<Skins> SkinsClassified =
         [
-
+            Skins.SawedOffWastelandPrincess,
+            Skins.P90ShallowGrave,
+            Skins.FAMASMechaIndustries
         ];
 
         private List<Skins> SkinsSecret =
         [
-
+            Skins.SSG08Dragonfire,
+            Skins.M4A4BuzzKill
         ];
 
         private List<Skins> SkinsRareItem =
         [
-
+            Skins.SportGlovesHedgeMaze,
+            Skins.SportGlovesPandorasBox,
+            Skins.SportGlovesSuperconductor,
+            Skins.SpecialistGlovesCrimsonKimono,
+            Skins.MotoGlovesSpearmint,
+            Skins.SpecialistGlovesEmeraldWeb,
+            Skins.SpecialistGlovesFoundation,
+            Skins.DriverGlovesLunarWeave,
+            Skins.HandWrapsSlaughter,
+            Skins.HandWrapsSpruceDDPAT,
+            Skins.SpecialistGlovesForestDDPAT,
+            Skins.BloodhoundGlovesCharred,
+            Skins.MotoGlovesCoolMint,
+            Skins.SportGlovesArid,
+            Skins.HandWrapsBadlands,
+            Skins.HandWrapsLeather,
+            Skins.MotoGlovesBoom,
+            Skins.DriverGlovesDiamondback,
+            Skins.DriverGlovesCrimsonWeave,
+            Skins.MotoGlovesEclipse,
+            Skins.BloodhoundGlovesBronzed,
+            Skins.DriverGlovesConvoy,
+            Skins.BloodhoundGlovesSnakebite,
+            Skins.BloodhoundGlovesGuerrilla
         ];
     }
 }

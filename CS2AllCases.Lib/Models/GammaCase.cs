@@ -216,27 +216,95 @@ namespace CS2AllCases.Lib.Models
 
         private List<Skins> SkinsArmy =
         [
-
+            Skins.Tec9IceCap,
+            Skins.SG553Aerial,
+            Skins.PPBizonHarvester,
+            Skins.P250IronClad,
+            Skins.NovaExo,
+            Skins.MAC10Carnivore,
+            Skins.FiveSevenViolentDaimyo
         ];
 
         private List<Skins> SkinsForbidden =
         [
-
+            Skins.SawedOffLimelight,
+            Skins.R8RevolverReboot,
+            Skins.P90Chopper,
+            Skins.AWPPhobos,
+            Skins.AUGAristocrat
         ];
 
         private List<Skins> SkinsClassified =
         [
-
+            Skins.SCAR20Bloodsport,
+            Skins.P2000ImperialDragon,
+            Skins.M4A4DesolateSpace
         ];
 
         private List<Skins> SkinsSecret =
         [
-
+            Skins.M4A1SMechaIndustries,
+            Skins.Glock18WastelandRebel
         ];
 
         private List<Skins> SkinsRareItem =
         [
-
+            Skins.KarambitGammaDopplerEmerald,
+            Skins.M9BayonetGammaDopplerEmerald,
+            Skins.KarambitGammaDopplerPhase2,
+            Skins.KarambitGammaDopplerPhase1,
+            Skins.KarambitGammaDopplerPhase3,
+            Skins.KarambitGammaDopplerPhase4,
+            Skins.M9BayonetGammaDopplerPhase2,
+            Skins.BayonetGammaDopplerEmerald,
+            Skins.FlipKnifeGammaDopplerEmerald,
+            Skins.M9BayonetGammaDopplerPhase1,
+            Skins.M9BayonetGammaDopplerPhase3,
+            Skins.M9BayonetGammaDopplerPhase4,
+            Skins.M9BayonetLore,
+            Skins.KarambitLore,
+            Skins.KarambitAutotronic,
+            Skins.M9BayonetAutotronic,
+            Skins.KarambitBlackLaminate,
+            Skins.BayonetGammaDopplerPhase2,
+            Skins.FlipKnifeGammaDopplerPhase2,
+            Skins.KarambitFreehand,
+            Skins.M9BayonetBlackLaminate,
+            Skins.FlipKnifeDopplerPhase2,
+            Skins.BayonetGammaDopplerPhase1,
+            Skins.BayonetGammaDopplerPhase4,
+            Skins.BayonetGammaDopplerPhase3,
+            Skins.KarambitBrightWater,
+            Skins.FlipKnifeGammaDopplerPhase3,
+            Skins.FlipKnifeGammaDopplerPhase4,
+            Skins.FlipKnifeGammaDopplerPhase1,
+            Skins.M9BayonetBrightWater,
+            Skins.M9BayonetFreehand,
+            Skins.BayonetAutotronic,
+            Skins.BayonetLore,
+            Skins.GutKnifeGammaDopplerEmerald,
+            Skins.FlipKnifeDopplerPhase4,
+            Skins.FlipKnifeDopplerPhase1,
+            Skins.FlipKnifeDopplerPhase3,
+            Skins.FlipKnifeAutotronic,
+            Skins.FlipKnifeLore,
+            Skins.BayonetBlackLaminate,
+            Skins.BayonetBrightWater,
+            Skins.BayonetFreehand,
+            Skins.FlipKnifeBlackLaminate,
+            Skins.GutKnifeGammaDopplerPhase2,
+            Skins.GutKnifeGammaDopplerPhase4,
+            Skins.GutKnifeGammaDopplerPhase3,
+            Skins.GutKnifeGammaDopplerPhase1,
+            Skins.GutKnifeDopplerPhase2,
+            Skins.FlipKnifeBrightWater,
+            Skins.GutKnifeAutotronic,
+            Skins.GutKnifeLore,
+            Skins.FlipKnifeFreehand,
+            Skins.GutKnifeDopplerPhase3,
+            Skins.GutKnifeBlackLaminate,
+            Skins.GutKnifeFreehand,
+            Skins.GutKnifeBrightWater
         ];
     }
 }

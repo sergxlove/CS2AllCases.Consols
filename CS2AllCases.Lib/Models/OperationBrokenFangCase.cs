@@ -152,27 +152,63 @@ namespace CS2AllCases.Lib.Models
 
         private List<Skins> SkinsArmy =
         [
-
+            Skins.P90CocoaRampage,
+            Skins.P250Contaminant,
+            Skins.MP5SDConditionZero,
+            Skins.M249DeepRelief,
+            Skins.GalilARVandal,
+            Skins.G3SG1DigitalMesh,
+            Skins.CZ75AutoVendetta
         ];
 
         private List<Skins> SkinsForbidden =
         [
-
+            Skins.UMP45GoldBismuth,
+            Skins.SSG08Parallax,
+            Skins.NovaClearPolymer,
+            Skins.DualBerettasDezastre,
+            Skins.AWPExoskeleton
         ];
 
         private List<Skins> SkinsClassified =
         [
-
+            Skins.USPSMonsterMashup,
+            Skins.M4A4CyberSecurity,
+            Skins.FiveSevenFairyTale
         ];
 
         private List<Skins> SkinsSecret =
         [
-
+            Skins.M4A1SPrintstream,
+            Skins.Glock18NeoNoir
         ];
 
         private List<Skins> SkinsRareItem =
         [
-
+            Skins.SportGlovesNocts,
+            Skins.SpecialistGlovesMarbleFade,
+            Skins.DriverGlovesSnowLeopard,
+            Skins.SportGlovesBigGame,
+            Skins.HandWrapsCAUTION,
+            Skins.MotoGlovesBloodPressure,
+            Skins.SportGlovesSlingshot,
+            Skins.SpecialistGlovesLtCommander,
+            Skins.SpecialistGlovesTigerStrike,
+            Skins.MotoGlovesFinishLine,
+            Skins.BrokenFangGlovesJade,
+            Skins.DriverGlovesRezanTheRed,
+            Skins.SportGlovesScarletShamagh,
+            Skins.SpecialistGlovesFieldAgent,
+            Skins.DriverGlovesBlackTie,
+            Skins.DriverGlovesQueenJaguar,
+            Skins.HandWrapsDesertShamagh,
+            Skins.BrokenFangGlovesUnhinged,
+            Skins.BrokenFangGlovesYellowBanded,
+            Skins.MotoGlovesSmokeOut,
+            Skins.HandWrapsGiraffe,
+            Skins.MotoGloves3rdCommandoCompany,
+            Skins.HandWrapsConstrictor,
+            Skins.BrokenFangGlovesNeedlePoint
         ];
     }
 }
