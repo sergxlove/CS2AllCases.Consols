@@ -128,27 +128,52 @@ namespace CS2AllCases.Lib.Models
 
         private List<Skins> SkinsArmy =
         [
+            Skins.XM1014Scumbria,
+            Skins.SCAR20GreenMarine, 
+            Skins.MAG7CobaltCore,
+            Skins.MAC10Rangeen,
+            Skins.Glock18Wraiths,
+            Skins.FAMASSurvivorZ,
+            Skins.DualBerettasDualingDragons,
 
         ];
 
         private List<Skins> SkinsForbidden =
         [
-
+            Skins.P250Wingshot,
+            Skins.MP7SpecialDelivery,
+            Skins.M249NebulaCrusader,
+            Skins.GalilARStoneCold,
         ];
 
         private List<Skins> SkinsClassified =
         [
-
+            Skins.SSG08BigIron,
+            Skins.G3SG1Flux,
+            Skins.AK47FrontsideMisty
         ];
 
         private List<Skins> SkinsSecret =
         [
-
+            Skins.USPSKillConfirmed,
+            Skins.M4A1SGoldenCoil
         ];
 
         private List<Skins> SkinsRareItem =
         [
-
+            Skins.ShadowDaggersFade,
+            Skins.ShadowDaggersCaseHardened,
+            Skins.ShadowDaggersSlaughter,
+            Skins.ShadowDaggersCrimsonWeb,
+            Skins.ShadowDaggersVanilla,
+            Skins.ShadowDaggersBlueSteel,
+            Skins.ShadowDaggersStained,
+            Skins.ShadowDaggersNight,
+            Skins.ShadowDaggersUrbanMasked,
+            Skins.ShadowDaggersScorched,
+            Skins.ShadowDaggersBorealForest,
+            Skins.ShadowDaggersSafariMesh,
+            Skins.ShadowDaggersForestDDPAT
         ];
     }
 }

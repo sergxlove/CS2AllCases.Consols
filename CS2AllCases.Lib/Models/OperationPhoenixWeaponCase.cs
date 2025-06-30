@@ -226,27 +226,100 @@ namespace CS2AllCases.Lib.Models
 
         private List<Skins> SkinsArmy =
         [
-
+            Skins.UMP45Corporal,
+            Skins.Tec9Sandstorm,
+            Skins.NegevTerrain,
+            Skins.MAG7HeavenGuard,
         ];
 
         private List<Skins> SkinsForbidden =
         [
-
+            Skins.USPSGuardian, 
+            Skins.SG553Pulse,
+            Skins.MAC10Heat,
+            Skins.FAMASSergeant
         ];
 
         private List<Skins> SkinsClassified =
         [
-
+            Skins.P90Trigon,
+            Skins.NovaAntique,
+            Skins.AK47Redline
         ];
 
         private List<Skins> SkinsSecret =
         [
-
+            Skins.AWPAsiimov,
+            Skins.AUGChameleon
         ];
 
         private List<Skins> SkinsRareItem =
         [
-
+            Skins.KarambitFade,
+            Skins.KarambitVanilla,
+            Skins.M9BayonetFade,
+            Skins.KarambitCaseHardened,
+            Skins.KarambitSlaughter,
+            Skins.M9BayonetVanilla,
+            Skins.KarambitCrimsonWeb,
+            Skins.M9BayonetSlaughter,
+            Skins.M9BayonetCrimsonWeb,
+            Skins.KarambitBlueSteel,
+            Skins.KarambitNight,
+            Skins.KarambitStained,
+            Skins.M9BayonetCaseHardened,
+            Skins.M9BayonetBlueSteel,
+            Skins.KarambitScorched,
+            Skins.KarambitUrbanMasked,
+            Skins.M9BayonetStained,
+            Skins.KarambitBorealForest,
+            Skins.M9BayonetNight,
+            Skins.BayonetFade,
+            Skins.KarambitForestDDPAT,
+            Skins.KarambitSafariMesh,
+            Skins.BayonetSlaughter,
+            Skins.FlipKnifeFade,
+            Skins.M9BayonetScorched,
+            Skins.M9BayonetUrbanMasked,
+            Skins.M9BayonetForestDDPAT,
+            Skins.M9BayonetBorealForest,
+            Skins.M9BayonetSafariMesh,
+            Skins.BayonetCaseHardened,
+            Skins.BayonetCrimsonWeb,
+            Skins.FlipKnifeSlaughter,
+            Skins.BayonetVanilla,
+            Skins.BayonetBlueSteel,
+            Skins.FlipKnifeCrimsonWeb,
+            Skins.FlipKnifeCaseHardened,
+            Skins.FlipKnifeVanilla,
+            Skins.GutKnifeCaseHardened,
+            Skins.BayonetNight,
+            Skins.FlipKnifeBlueSteel,
+            Skins.BayonetStained,
+            Skins.BayonetUrbanMasked,
+            Skins.FlipKnifeStained,
+            Skins.BayonetScorched,
+            Skins.GutKnifeFade,
+            Skins.FlipKnifeNight,
+            Skins.BayonetForestDDPAT,
+            Skins.BayonetBorealForest,
+            Skins.GutKnifeSlaughter,
+            Skins.BayonetSafariMesh,
+            Skins.FlipKnifeScorched,
+            Skins.FlipKnifeUrbanMasked,
+            Skins.FlipKnifeBorealForest,
+            Skins.FlipKnifeForestDDPAT,
+            Skins.FlipKnifeSafariMesh,
+            Skins.GutKnifeCrimsonWeb,
+            Skins.GutKnifeVanilla,
+            Skins.GutKnifeStained,
+            Skins.GutKnifeBlueSteel,
+            Skins.GutKnifeSafariMesh,
+            Skins.GutKnifeForestDDPAT,
+            Skins.GutKnifeUrbanMasked,
+            Skins.GutKnifeNight,
+            Skins.GutKnifeScorched,
+            Skins.GutKnifeBorealForest
         ];
     }
 }

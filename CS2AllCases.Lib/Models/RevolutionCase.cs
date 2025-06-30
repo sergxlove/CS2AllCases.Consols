@@ -152,27 +152,63 @@ namespace CS2AllCases.Lib.Models
 
         private List<Skins> SkinsArmy =
         [
-
+            Skins.Tec9Rebel,
+            Skins.SG553Cyberforce,
+            Skins.SCAR20Fragments,
+            Skins.P250Rebuilt,
+            Skins.MP9Featherweight,
+            Skins.MP5SDLiquidation,
+            Skins.MAG7Insomnia
         ];
 
         private List<Skins> SkinsForbidden =
         [
-
+            Skins.R8RevolverBananaCannon,
+            Skins.P90Neoqueen,
+            Skins.MAC10Sakkaku,
+            Skins.M4A1SEmphorosaurS,
+            Skins.Glock18UmbralRabbit
         ];
 
         private List<Skins> SkinsClassified =
         [
-
+            Skins.UMP45WildChild,
+            Skins.P2000WickedSick,
+            Skins.AWPDuality
         ];
 
         private List<Skins> SkinsSecret =
         [
-
+            Skins.M4A4Temukau,
+            Skins.AK47HeadShot
         ];
 
         private List<Skins> SkinsRareItem =
         [
-
+            Skins.SportGlovesVice,
+            Skins.SpecialistGlovesFade,
+            Skins.SportGlovesOmega,
+            Skins.HandWrapsCobaltSkulls,
+            Skins.SportGlovesAmphibious,
+            Skins.MotoGlovesPOW,
+            Skins.DriverGlovesKingSnake,
+            Skins.SpecialistGlovesMogul,
+            Skins.MotoGlovesPolygon,
+            Skins.MotoGlovesTurtle,
+            Skins.HandWrapsOverprint,
+            Skins.DriverGlovesImperialPlaid,
+            Skins.SpecialistGlovesCrimsonWeb,
+            Skins.HydraGlovesMangrove,
+            Skins.HandWrapsArboreal,
+            Skins.HydraGlovesEmerald,
+            Skins.DriverGlovesRacingGreen,
+            Skins.SportGlovesBronzeMorph,
+            Skins.HydraGlovesRattler,
+            Skins.DriverGlovesOvertake,
+            Skins.HydraGlovesCaseHardened,
+            Skins.SpecialistGlovesBuckshot,
+            Skins.HandWrapsDuctTape,
+            Skins.MotoGlovesTransport
         ];
     }
 }
