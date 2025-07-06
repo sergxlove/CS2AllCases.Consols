@@ -9,6 +9,7 @@ namespace CS2AllCases.Consols
         {
             ExecuteCommandsCore cmd = new ExecuteCommandsCore();
             cmd.AddRange(ConsoleCases.UseConsoleCases());
+            cmd.AddRange(OpenCases.UseOpenCases());
             string str = string.Empty;
             bool exit = false;
             while(!exit)
