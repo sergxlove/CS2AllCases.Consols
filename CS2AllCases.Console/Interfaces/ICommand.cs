@@ -4,6 +4,6 @@
     {
         string Name { get; }
         string Description { get; }
-        void Execute(string[] args);
+        void Execute(string[] args, InventoryCore inventory);
     }
 }
