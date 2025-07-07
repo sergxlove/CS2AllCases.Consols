@@ -24,7 +24,7 @@ namespace CS2AllCases.Consols.UseCases
                         "Структура: [command] [argument] [parameter]\n" +
                         "Отвечает за вывод текущей версии приложения\n" +
                         "Аргументы: \n";
-        public void Execute(string[] args)
+        public void Execute(string[] args, InventoryCore inventory)
         {
             Console.WriteLine("\n" +
                 "Версия 1.0.0, developer sergxlove, 2025\n" +
@@ -38,7 +38,7 @@ namespace CS2AllCases.Consols.UseCases
 
         public string Description => "";
 
-        public void Execute(string[] args)
+        public void Execute(string[] args, InventoryCore inventory)
         {
             Console.WriteLine("\n" +
                 "╔══╗╔═══╗╔═══╗╔═══╗╔══╗╔══╗╔╗──╔══╗╔╗╔╗╔═══╗\n" +

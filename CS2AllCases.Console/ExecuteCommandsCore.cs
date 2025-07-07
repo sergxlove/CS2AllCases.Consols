@@ -6,7 +6,7 @@ namespace CS2AllCases.Consols
     {
         public List<ICommand> Commands { get; } = [];
 
-        public void ExecuteCommand(string command)
+        public void ExecuteCommand(string command, InventoryCore inventory)
         {
             string[] parts = command.Split(' ');
             string cmdName = parts[0];
@@ -14,7 +14,7 @@ namespace CS2AllCases.Consols
             var cmd = Commands.FirstOrDefault(a => a.Name == cmdName);
             if (cmd != null)
             {
-                cmd.Execute(args);
+                cmd.Execute(args, inventory);
             }
         }
 

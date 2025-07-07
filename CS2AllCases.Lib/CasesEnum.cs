@@ -33,7 +33,7 @@ namespace CS2AllCases.Lib
         [Description("Falchion Case")]
         FalchionCase = 14,
         [Description("Fracture Case")]
-        FractureCAse = 15,
+        FractureCase = 15,
         [Description("Gallery Case")]
         GalleryCase = 16,
         [Description("Gamma 2 Case")]

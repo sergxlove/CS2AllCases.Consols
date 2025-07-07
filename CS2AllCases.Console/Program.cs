@@ -8,6 +8,7 @@ namespace CS2AllCases.Consols
         static void Main(string[] args)
         {
             ExecuteCommandsCore cmd = new ExecuteCommandsCore();
+            InventoryCore inventory = new InventoryCore();
             cmd.AddRange(ConsoleCases.UseConsoleCases());
             cmd.AddRange(OpenCases.UseOpenCases());
             string str = string.Empty;
@@ -17,7 +18,7 @@ namespace CS2AllCases.Consols
                 Console.Write("user> ");
                 str = Console.ReadLine()!;
                 if (str == "exit") break;
-                cmd.ExecuteCommand(str);
+                cmd.ExecuteCommand(str, inventory);
             }
         }
     }
