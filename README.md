@@ -1,6 +1,6 @@
 # CS2AllCases.Console
 
-![Static Badge](https://img.shields.io/badge/language-CSharp-red)
+![Static Badge](https://img.shields.io/badge/language-C%23-red)
 ![Static Badge](https://img.shields.io/badge/powered_by-.NET_9-blue)
 ![Static Badge](https://img.shields.io/badge/platforms-Windows,_Linux-purple)
 ![Static Badge](https://img.shields.io/badge/version-1.0-orange)
