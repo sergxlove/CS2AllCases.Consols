@@ -27,8 +27,11 @@ namespace CS2AllCases.Consols
     
     static void Main(string[] args)
     {
+      //Initialize 
       ICases cases = new Chroma2Case();
+      //Getting drop
       var result = cases.GetDrop();
+      //Output in console
       Console.WriteLine(result);
     }
 }
@@ -42,6 +45,20 @@ namespace CS2AllCases.Consols
 |-------------------|--------------------------------------------------------|------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
 | GetDrop()         | Getting the object responsible for the skin parameters | CS2AllCases.Lib.Models | -                                                                                                                                                                                                           | ResultsItems |
 | GetNameSkinsAll() | getting the names of all case skins                    | CS2AllCases.Lib.Models | bool IsSkinArmy - check skin army, bool isSkinForbidden - check skin forbidden, bool isSkinClassified - check skin classified, bool isSkinSecret - check skin secret, bool isSkinRareItem - check skin rare | string       |
+
+### Structure class ResultItems
+
+| Name property | Description                 |
+|---------------|-----------------------------|
+| Name          | Name skin                   |
+| RarityItems   | Rarity skin                 |
+| QualityItems  | Quality skin                |
+| StatrackItems | Indicate that statrack skin |
+| SouvenirItems | Indicate that statrack skin |
+
+
+## Configuration options drop
+
 
 
 
