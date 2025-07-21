@@ -21,7 +21,7 @@ namespace CS2AllCases.Consols.UseCases
     {
         public string Name => "version";
         public string Description => "\n" +
-                        "Структура: [command] [argument] [parameter]\n" +
+                        "Структура: [command] [argument] \n" +
                         "Отвечает за вывод текущей версии приложения\n" +
                         "Аргументы: \n";
         public void Execute(string[] args, InventoryCore inventory)
@@ -36,7 +36,10 @@ namespace CS2AllCases.Consols.UseCases
     {
         public string Name => "developer";
 
-        public string Description => "";
+        public string Description => "\n" +
+                        "Структура: [command] [argument] \n" +
+                        "Отвечает за вывод информации о разработчике\n" +
+                        "Аргументы: \n";
 
         public void Execute(string[] args, InventoryCore inventory)
         {
