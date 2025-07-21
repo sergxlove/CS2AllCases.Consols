@@ -1,11 +1,8 @@
 ﻿using CS2AllCases.Consols.Interfaces;
 using CS2AllCases.Lib;
-using CS2AllCases.Lib.Abstractios;
 using CS2AllCases.Lib.Models;
 using System.ComponentModel;
-using System.Diagnostics.Contracts;
 using System.Reflection;
-using System.Reflection.Emit;
 
 namespace CS2AllCases.Consols.UseCases
 {
@@ -17,7 +14,8 @@ namespace CS2AllCases.Consols.UseCases
             {
                 new GetNameCases(),
                 new SelectCase(),
-                new OpenCase()
+                new OpenCase(),
+                new GetSkins()
             };
             return command;
         }
@@ -29,7 +27,10 @@ namespace CS2AllCases.Consols.UseCases
     {
         public string Name => "cases";
 
-        public string Description => throw new NotImplementedException();
+        public string Description => "\n" +
+                        "Структура: [command] [argument] \n" +
+                        "Отвечает за вывод названий всей кейсов\n" +
+                        "Аргументы: \n";
 
         public void Execute(string[] args, InventoryCore inventory)
         {
@@ -52,7 +53,10 @@ namespace CS2AllCases.Consols.UseCases
     {
         public string Name => "select";
 
-        public string Description => throw new NotImplementedException();
+        public string Description => "\n" +
+                        "Структура: [command] [argument] \n" +
+                        "Отвечает за выбор кейса\n" +
+                        "Аргументы: \n";
 
         public void Execute(string[] args, InventoryCore inventory)
         {
@@ -200,13 +204,58 @@ namespace CS2AllCases.Consols.UseCases
     {
         public string Name => "open";
 
-        public string Description => throw new NotImplementedException();
+        public string Description => "\n" +
+                        "Структура: [command] [argument] \n" +
+                        "Отвечает за открытие кейса\n" +
+                        "Аргументы: \n";
 
         public void Execute(string[] args, InventoryCore inventory)
         {
             try
             {
-                Console.WriteLine(inventory.SelectedCase!.GetDrop());
+                var result = inventory.SelectedCase!.GetDrop();
+                switch(result.Rarity)
+                {
+                    case PropertyItem.RarityItems.Army:
+                        Console.ForegroundColor = ConsoleColor.Blue;
+                        break;
+                    case PropertyItem.RarityItems.Forbidden:
+                        Console.ForegroundColor = ConsoleColor.DarkCyan;
+                        break;
+                    case PropertyItem.RarityItems.Classified:
+                        Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                        break;
+                    case PropertyItem.RarityItems.Secret:
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        break;
+                    default:
+                        break;
+                }
+                Console.WriteLine(result);
+                Console.ForegroundColor = ConsoleColor.White;
+            }
+            catch
+            {
+                Console.WriteLine("No select case");
+            }
+        }
+    }
+
+    public class GetSkins : ICommand
+    {
+        public string Name => "skins";
+
+        public string Description => "\n" +
+                        "Структура: [command] [argument] \n" +
+                        "Отвечает за вывод скинов текущего кейса\n" +
+                        "Аргументы: \n";
+
+        public void Execute(string[] args, InventoryCore inventory)
+        {
+            try
+            {
+                var result = inventory.SelectedCase!.GetNameSkinsAll();
+                Console.WriteLine(result);
             }
             catch
             {

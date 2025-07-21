@@ -1,4 +1,6 @@
 ﻿using CS2AllCases.Consols.UseCases;
+using CS2AllCases.Lib.Abstractios;
+using CS2AllCases.Lib.Models;
 
 namespace CS2AllCases.Consols
 {
